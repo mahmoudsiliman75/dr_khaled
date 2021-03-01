@@ -1,4 +1,104 @@
 body {
   font-family: 'Noto Serif JP', serif;
 }
+
+nav {
+  padding: 15px 20px;
+}
+
+nav .site-logo {
+  min-width: 75px;
+  max-width: 75px;
+  min-height: 75px;
+  max-height: 75px;
+}
+
+nav .site-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+nav .nav-links ul li {
+  overflow: hidden;
+  margin: 0 8px;
+  padding-bottom: 5px;
+  position: relative;
+  font-size: 15px;
+}
+
+nav .nav-links ul li a {
+  text-decoration: none;
+  color: #00303f;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+nav .nav-links ul li.active a {
+  color: #d0af85;
+}
+
+nav .nav-links ul li.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #d0af85;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+nav .nav-links ul li::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #d0af85;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+nav .nav-links ul li:hover a {
+  color: #d0af85;
+}
+
+nav .nav-links ul li:hover::before {
+  left: 0;
+}
+
+nav .lang-button button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+nav .lang-button button span {
+  font-size: 16px;
+  padding: 3px 10px;
+}
+
+nav .lang-button button span:nth-child(1) {
+  color: #fff;
+  background-color: #d0af85;
+  border: 1px solid #d0af85;
+  border-right: none;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+nav .lang-button button span:nth-child(2) {
+  color: #d0af85;
+  border: 1px solid #d0af85;
+  border-left: none;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 /*# sourceMappingURL=style.css.map */
