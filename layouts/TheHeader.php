@@ -66,7 +66,7 @@
       </li>
 
       <li> 
-        <a href="#"> Cairo University </a>
+        <a href="CairoUniversity.php"> Cairo University </a>
       </li>
 
       <li> 

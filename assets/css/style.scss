@@ -802,6 +802,29 @@ nav {
 }
 // END:: HOW TO SHARE SECTION STYLES
 
+// START:: CAIRO UNIVERSITY SECTION STYLES
+.cairo_university {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .cairo_university_img_wraper {
+    img {
+      width: 100%;
+      min-height: 400px;
+      max-height: 400px;
+      border-radius: $borderRadiusAmount;
+    }
+  }
+
+  .cairo_university_info_wraper {
+    padding-top: 20px;
+    font-size: 20px;
+    color: $lightGrey;
+    line-height: 1.6;
+    text-align: justify;
+  }
+}
+// END:: CAIRO UNIVERSITY SECTION STYLES
+
 // START:: FOOTER STYLES
 footer {
   background-color: $darkGrey;
