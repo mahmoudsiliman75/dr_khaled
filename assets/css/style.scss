@@ -3,7 +3,9 @@ $deepBlue: #00303f;
 $lightCoffee: #d0af85;
 $midRed: #bb0808;
 $lightOrange: #ff7c00;
+$lighterGrey: #c1c1c1;
 $lightGrey: #666;
+$darkGrey: #212121;
 $white: #fff;
 $paddingAmount: 30px;
 $borderRadiusAmount: 10px;
@@ -475,15 +477,45 @@ nav {
       justify-content: space-between;
       .owl-prev,
       .owl-next {
+        position: relative;
         background-color: $deepBlue;
         color: $white;
         width: 35px;
         height: 35px;
         line-height: 25px;
         border-radius: 50%;
+        overflow: hidden;
         @include transitioning();
         &:hover {
           transform: scale(1.1);
+        }
+      }
+      .owl-prev {
+        &::before {
+          content: "\f0d9";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+      .owl-next {
+        &::before {
+          content: "\f0da";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
         }
       }
     }
@@ -532,15 +564,45 @@ nav {
       justify-content: space-between;
       .owl-prev,
       .owl-next {
+        position: relative;
         background-color: $deepBlue;
         color: $white;
         width: 35px;
         height: 35px;
         line-height: 25px;
         border-radius: 50%;
+        overflow: hidden;
         @include transitioning();
         &:hover {
           transform: scale(1.1);
+        }
+      }
+      .owl-prev {
+        &::before {
+          content: "\f0d9";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+      .owl-next {
+        &::before {
+          content: "\f0da";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
         }
       }
     }
@@ -556,3 +618,116 @@ nav {
   }
 }
 // END:: VIDEOS SECTION STYLES
+
+// START:: FOOTER STYLES
+footer {
+  background-color: $darkGrey;
+
+  .footer_logo {
+    @include flexCenterAlignment();
+    img {
+      min-width: 100px;
+      max-width: 100px;
+      min-height: 100px;
+      max-height: 100px;
+    }
+  }
+
+  .short_cuts {
+    display: flex;
+    flex-direction: row;
+    a {
+      text-decoration: none;
+      color: $lighterGrey;
+      overflow: hidden;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: $lightCoffee;
+        @include transitioning();
+      }
+      &:hover {
+        color: $lightCoffee;
+        &::before {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .get_in_touch {
+    h5 {
+      color: $lighterGrey;
+    }
+    ul {
+      color: $lighterGrey; 
+      li {
+        margin: 8px 0;
+        span {
+          color: $lightCoffee;
+          a {
+            text-decoration: none;
+            color: $lightCoffee;
+          }
+        }
+      }
+    }
+  }
+
+  .follow_us {
+    h5 {
+      color: $lighterGrey;
+    }
+    ul {
+      text-align: center;
+      li {
+        display: inline-block;
+        margin: 3px 5px;
+        @include transitioning();
+        a {
+          color: $white;
+          opacity: 0.5;
+        }
+        &:hover {
+          transform: rotate(360deg) scale(1.2);
+          a {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .payment {
+      @include transitioning();
+      a {
+        text-decoration: none;
+        color: $lightCoffee;
+      }
+      &:hover {
+        transform: scale(1.2)
+      }
+    }
+  }
+
+  .copy_rights {
+    background-color: #444;
+    color: $lightCoffee;
+    span {
+      a {
+        text-decoration: none;
+        color: $deepBlue;
+        @include transitioning();
+        &:hover {
+          color: $lightOrange;
+        }
+      }
+    }
+  }
+}
+// END:: FOOTER STYLES
