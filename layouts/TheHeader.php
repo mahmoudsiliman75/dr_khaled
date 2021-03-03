@@ -62,7 +62,7 @@
       </li>
 
       <li> 
-        <a href="#"> Books </a>
+        <a href="AllBooks.php"> Books </a>
       </li>
 
       <li> 
