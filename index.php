@@ -428,6 +428,110 @@
 </div>
 <!-- END:: BOOKS SECTION -->
 
+<!-- START:: TESTEMONIALS SECTION -->
+<div class="testemonials">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> What People Say?! </h2>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div id="testemonials_slider" class="owl-carousel owl-theme col-10">
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="row justify-content-center">
+
+            <div class="col-5 col-md-3 testemonial_img">
+              <img src="assets/media/default.jpg" alt="Testemonial">
+              <h5> Name 1 </h5>
+            </div>
+
+              <div class="col-12 col-md-7 testemonial_body">
+                <span>
+                  <i class="fas fa-quote-right fa-3x"></i>
+                </span>
+                (1) Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Ea odit recusandae aut at magnam. Omnis voluptatum tempora, 
+                tempore ipsum, dolorum, ad pariatur accusamus eaque porro 
+                sapiente repudiandae hic dolore possimus.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="row justify-content-center">
+
+            <div class="col-5 col-md-3 testemonial_img">
+              <img src="assets/media/default.jpg" alt="Testemonial">
+              <h5> Name 2 </h5>
+            </div>
+
+              <div class="col-12 col-md-7 testemonial_body">
+                <span>
+                  <i class="fas fa-quote-right fa-3x"></i>
+                </span>
+                (2) Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Ea odit recusandae aut at magnam. Omnis voluptatum tempora, 
+                tempore ipsum, dolorum, ad pariatur accusamus eaque porro 
+                sapiente repudiandae hic dolore possimus.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="row justify-content-center">
+
+            <div class="col-5 col-md-3 testemonial_img">
+              <img src="assets/media/default.jpg" alt="Testemonial">
+              <h5> Name 3 </h5>
+            </div>
+
+              <div class="col-12 col-md-7 testemonial_body">
+                <span>
+                  <i class="fas fa-quote-right fa-3x"></i>
+                </span>
+                (3) Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Ea odit recusandae aut at magnam. Omnis voluptatum tempora, 
+                tempore ipsum, dolorum, ad pariatur accusamus eaque porro 
+                sapiente repudiandae hic dolore possimus.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="row justify-content-center">
+
+            <div class="col-5 col-md-3 testemonial_img">
+              <img src="assets/media/default.jpg" alt="Testemonial">
+              <h5> Name 4 </h5>
+            </div>
+
+              <div class="col-12 col-md-7 testemonial_body">
+                <span>
+                  <i class="fas fa-quote-right fa-3x"></i>
+                </span>
+                (4) Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Ea odit recusandae aut at magnam. Omnis voluptatum tempora, 
+                tempore ipsum, dolorum, ad pariatur accusamus eaque porro 
+                sapiente repudiandae hic dolore possimus.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: TESTEMONIALS SECTION -->
+
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->

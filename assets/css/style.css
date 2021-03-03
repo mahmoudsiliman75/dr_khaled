@@ -487,4 +487,114 @@ nav .lang-button button span:nth-child(2) {
 .books_sec .book_details .card .card-body .btn_box a:hover::before {
   left: 0;
 }
+
+.testemonials {
+  padding-top: 30px;
+}
+
+.testemonials .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testemonials .header_wraper h2 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.testemonials .owl-carousel {
+  position: relative;
+}
+
+.testemonials .owl-carousel .item .testemonial_card {
+  padding: 20px 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 25px -5px #d0af85 inset;
+          box-shadow: 0 0 25px -5px #d0af85 inset;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .row .testemonial_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .row .testemonial_img img {
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 150px;
+  max-height: 150px;
+  border: 3px solid #d0af85;
+  border-radius: 50%;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .row .testemonial_img h5 {
+  color: #00303f;
+  margin-top: 10px;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .row .testemonial_body {
+  color: #666;
+  text-align: start;
+  padding: 20px;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .row .testemonial_body span {
+  margin: 0 10px;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .row .testemonial_body span svg {
+  color: #00303f;
+}
+
+.testemonials .owl-carousel .owl-nav {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testemonials .owl-carousel .owl-nav .owl-prev,
+.testemonials .owl-carousel .owl-nav .owl-next {
+  background-color: #00303f;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 25px;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.testemonials .owl-carousel .owl-nav .owl-prev:hover,
+.testemonials .owl-carousel .owl-nav .owl-next:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=style.css.map */
