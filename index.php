@@ -32,7 +32,7 @@
 
 <!-- START::ABOUT US SECTION -->
 <div class="about_us_sec">
-  <div class="continer">
+  <div class="container-fluid">
     <div class="row justify-content-center p-2">
       <div class="col-12 col-md-6 my-2 m-md-0 about_img_box">
         <img src="assets/media/pic9.jpg" alt="About Operations">
@@ -86,22 +86,22 @@
 
   <div class="container-fluid">
     <div class="row icons_wraper justify-content-center mt-3">
-      <div class="col-6 col-md-2 my-2 mx-4 text-center">
+      <div class="col-6 col-md-2 my-2 px-4 text-center">
         <img src="assets/media/icons/chart.png" alt="Why Section Icon 1">
         <h5> 20+ Books </h5>
       </div>
 
-      <div class="col-6 col-md-2 my-2 mx-4 text-center">
+      <div class="col-6 col-md-2 my-2 px-4 text-center">
         <img src="assets/media/icons/financ.png" alt="Why Section Icon 1">
         <h5> 50+ Operation </h5>
       </div>
 
-      <div class="col-6 col-md-2 my-2 mx-4 text-center">
+      <div class="col-6 col-md-2 my-2 px-4 text-center">
         <img src="assets/media/icons/contract.png" alt="Why Section Icon 1">
         <h5> 30+ Years Of Experience </h5>
       </div>
 
-      <div class="col-6 col-md-2 my-2 mx-4 text-center">
+      <div class="col-6 col-md-2 my-2 px-4 text-center">
         <img src="assets/media/icons/team.png" alt="Why Section Icon 1">
         <h5> 500+ Sold Books </h5>
       </div>
@@ -113,10 +113,320 @@
 <!-- START:: LIBERARY SECTION -->
 <div class="liberary">
   <div class="overlay">
-    <h2> All You Need Under One Roof </h2>
+    <h3 class="text-center"> All You Need Under One Roof </h3>
   </div>
 </div>
 <!-- END:: LIBERARY SECTION -->
+
+<!-- START:: BOOKS SECTION -->
+<div class="books_sec">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="col-10 col-md-3 books_panel mb-4">
+        <h5> Today Deal In books </h5>
+        <p class="my-3"> 
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Ducimus porro enim quos hic mollitia aut adipisci modi itaque, 
+          delectus eum, ex iure ipsa perferendis quas, magni tempore impedit 
+          distinctio placeat.
+        </p>
+        <div class="btn_box">
+          <a href="AllBooks.php"> view all books </a>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 book_details mb-4">
+        <div class="card">
+          <div class="card_img_wraper">
+            <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+            <span class="badge"> 
+              <i class="fas fa-book fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Book Title</h5>
+            <ul class="list-unstyled">
+              <li> 
+                <span> $50.00 </span> 
+                <span> 
+                  <i class="fas fa-cart-plus fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> Hard Copy </span> 
+                <span> 
+                  <i class="fas fa-book fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> PDF </span> 
+                <span> 
+                  <i class="far fa-file-pdf fa-lg"></i>
+                </span> 
+              </li>
+            </ul>
+            <div class="btn_box">
+              <a href="BookDetails.php"> more details </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 book_details mb-4">
+        <div class="card">
+          <div class="card_img_wraper">
+            <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+            <span class="badge"> 
+              <i class="fas fa-book fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Book Title</h5>
+            <ul class="list-unstyled">
+              <li> 
+                <span> $50.00 </span> 
+                <span> 
+                  <i class="fas fa-cart-plus fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> Hard Copy </span> 
+                <span> 
+                  <i class="fas fa-book fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> PDF </span> 
+                <span> 
+                  <i class="far fa-file-pdf fa-lg"></i>
+                </span> 
+              </li>
+            </ul>
+            <div class="btn_box">
+              <a href="BookDetails.php"> more details </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 book_details mb-4">
+        <div class="card">
+          <div class="card_img_wraper">
+            <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+            <span class="badge"> 
+              <i class="fas fa-book fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Book Title</h5>
+            <ul class="list-unstyled">
+              <li> 
+                <span> $50.00 </span> 
+                <span> 
+                  <i class="fas fa-cart-plus fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> Hard Copy </span> 
+                <span> 
+                  <i class="fas fa-book fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> PDF </span> 
+                <span> 
+                  <i class="far fa-file-pdf fa-lg"></i>
+                </span> 
+              </li>
+            </ul>
+            <div class="btn_box">
+              <a href="BookDetails.php"> more details </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 book_details mb-4">
+        <div class="card">
+          <div class="card_img_wraper">
+            <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+            <span class="badge"> 
+              <i class="fas fa-book fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Book Title</h5>
+            <ul class="list-unstyled">
+              <li> 
+                <span> $50.00 </span> 
+                <span> 
+                  <i class="fas fa-cart-plus fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> Hard Copy </span> 
+                <span> 
+                  <i class="fas fa-book fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> PDF </span> 
+                <span> 
+                  <i class="far fa-file-pdf fa-lg"></i>
+                </span> 
+              </li>
+            </ul>
+            <div class="btn_box">
+              <a href="BookDetails.php"> more details </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 book_details mb-4">
+        <div class="card">
+          <div class="card_img_wraper">
+            <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+            <span class="badge"> 
+              <i class="fas fa-book fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Book Title</h5>
+            <ul class="list-unstyled">
+              <li> 
+                <span> $50.00 </span> 
+                <span> 
+                  <i class="fas fa-cart-plus fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> Hard Copy </span> 
+                <span> 
+                  <i class="fas fa-book fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> PDF </span> 
+                <span> 
+                  <i class="far fa-file-pdf fa-lg"></i>
+                </span> 
+              </li>
+            </ul>
+            <div class="btn_box">
+              <a href="BookDetails.php"> more details </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 book_details mb-4">
+        <div class="card">
+          <div class="card_img_wraper">
+            <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+            <span class="badge"> 
+              <i class="fas fa-book fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Book Title</h5>
+            <ul class="list-unstyled">
+              <li> 
+                <span> $50.00 </span> 
+                <span> 
+                  <i class="fas fa-cart-plus fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> Hard Copy </span> 
+                <span> 
+                  <i class="fas fa-book fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> PDF </span> 
+                <span> 
+                  <i class="far fa-file-pdf fa-lg"></i>
+                </span> 
+              </li>
+            </ul>
+            <div class="btn_box">
+              <a href="BookDetails.php"> more details </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 book_details mb-4">
+        <div class="card">
+          <div class="card_img_wraper">
+            <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+            <span class="badge"> 
+              <i class="fas fa-book fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Book Title</h5>
+            <ul class="list-unstyled">
+              <li> 
+                <span> $50.00 </span> 
+                <span> 
+                  <i class="fas fa-cart-plus fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> Hard Copy </span> 
+                <span> 
+                  <i class="fas fa-book fa-lg"></i>
+                </span> 
+              </li>
+
+              <li> 
+                <span> PDF </span> 
+                <span> 
+                  <i class="far fa-file-pdf fa-lg"></i>
+                </span> 
+              </li>
+            </ul>
+            <div class="btn_box">
+              <a href="BookDetails.php"> more details </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- END:: BOOKS SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

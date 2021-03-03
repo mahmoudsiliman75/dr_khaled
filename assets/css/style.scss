@@ -7,6 +7,7 @@ $lightGrey: #666;
 $white: #fff;
 $paddingAmount: 30px;
 $borderRadiusAmount: 10px;
+$midBorderRadiusAmount: 20px;
 $largeBorderRadiusAmount: 30px;
 // END:: VARIABLES
 
@@ -116,6 +117,10 @@ $largeBorderRadiusAmount: 30px;
   align-items: center;
   justify-content: center;
 }
+
+@mixin simpleShadow {
+  box-shadow: 0 0 15px 2px #888;
+}
 // END:: MIXINS
 
 // START:: GLOBAL STYLES
@@ -194,11 +199,12 @@ nav {
       padding: 0;
       width: 13px;
       height: 13px;
-      border: 1px solid $deepBlue;
+      border: none;
       @include borderradius(50%);
       &.active {
         width: 40px;
         background-color: $deepBlue;
+        border: none;
         @include borderradius(30px);
       }
     }
@@ -304,7 +310,7 @@ nav {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     @include flexCenterAlignment();
-    h2 {
+    h3 {
       background-color: rgba(241, 187, 105, 0.7);
       color: $deepBlue;
       font-weight: bolder;
@@ -314,3 +320,91 @@ nav {
   }
 }
 // END:: LIBERARY SECTION STYLES
+
+// START:: BOOKS SECTION STYLES
+.books_sec {
+  padding-top: $paddingAmount;
+  .books_panel {
+    padding: 20px;
+    height: fit-content;
+    border-radius: $borderRadiusAmount;
+    @include simpleShadow();
+    h5 {
+      color: $deepBlue;
+      text-align: center;
+    }
+    p {
+      color: $lightGrey;
+    }
+    .btn_box {
+      @include flexCenterAlignment();
+      a {
+        overflow: hidden;
+        @include btnHoverEffect();
+      }
+    }
+  }
+
+  .book_details {
+    .card {
+      height: 100%;
+      position: relative;
+      border: none;
+      .card_img_wraper {
+        img {
+          min-height: 320px;
+          max-height: 320px;
+          border-radius: $midBorderRadiusAmount;
+        }
+        .badge {
+          position: absolute;
+          right: -8px;
+          top: 20px;
+          background-color: $lightCoffee;
+          color: $deepBlue;
+          padding: 5px
+        }
+      }
+
+      .card-body {
+        padding-top: 5px;
+        @include flexCenterAlignment();
+        flex-direction: column;
+        h5 {
+          color: $deepBlue;
+        }
+
+        ul {
+          width: 100%;
+          li {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: $deepBlue;
+            &:first-child {
+              margin-top: 0;
+            }
+            &:last-child {
+              span {
+                &:last-child {
+                  color: $midRed;
+                }
+              }
+            }
+          }
+        }
+
+        .btn_box {
+          @include flexCenterAlignment();
+          z-index: 1;
+          a {
+            overflow: hidden;
+            @include btnHoverEffect();
+          }
+        }
+      }
+    }
+  }
+}
+// END:: BOOKS SECTION STYLES
