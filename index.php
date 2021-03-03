@@ -42,7 +42,7 @@
         <img src="assets/media/pic8.jpg" alt="About Books">
       </div>
 
-      <div class="col-12 col-md-11 mt-3">
+      <div class="col-12 col-md-11 mt-4">
         <div class="about_card row">
           <div class="col-12 col-md-6 about_card_img">
             <img src="assets/media/pic5.jpg" alt="About ">
@@ -74,7 +74,41 @@
     </div>
   </div>
 </div>
-<!-- START::ABOUT US SECTION -->
+<!-- END::ABOUT US SECTION -->
+
+<!-- START:: WHY DR SECTION -->
+<div class="why_sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Why Dr.Khaled Salah! </h2>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row icons_wraper justify-content-center mt-3">
+      <div class="col-6 col-md-2 my-2 mx-4 text-center">
+        <img src="assets/media/icons/chart.png" alt="Why Section Icon 1">
+        <h5> 20+ Books </h5>
+      </div>
+
+      <div class="col-6 col-md-2 my-2 mx-4 text-center">
+        <img src="assets/media/icons/financ.png" alt="Why Section Icon 1">
+        <h5> 50+ Operation </h5>
+      </div>
+
+      <div class="col-6 col-md-2 my-2 mx-4 text-center">
+        <img src="assets/media/icons/contract.png" alt="Why Section Icon 1">
+        <h5> 30+ Years Of Experience </h5>
+      </div>
+
+      <div class="col-6 col-md-2 my-2 mx-4 text-center">
+        <img src="assets/media/icons/team.png" alt="Why Section Icon 1">
+        <h5> 500+ Sold Books </h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: WHY DR SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

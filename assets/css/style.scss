@@ -79,6 +79,8 @@ $borderRadiusAmount: 10px;
   border: 2px solid $lightCoffee;
   background-color: transparent;
   color: $lightCoffee;
+  font-size: 13px;
+  font-weight: bold;
   text-transform: uppercase;
   position: relative;
   @include borderradius(30px);
@@ -100,6 +102,18 @@ $borderRadiusAmount: 10px;
     }
     color: $white;
   }
+}
+
+@mixin mainHeaderStyle {
+  color: $deepBlue;
+  border-left: 3px solid $lightCoffee;
+  padding: 8px;
+}
+
+@mixin flexCenterAlignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 // END:: MIXINS
 
@@ -202,6 +216,7 @@ nav {
 
 // START:: ABOUT US SECTION STYLES
 .about_us_sec {
+  padding-bottom: $paddingAmount;
   .about_img_box {
     min-height: 350px;
     max-height: 350px;
@@ -213,20 +228,20 @@ nav {
   }
 
   .about_card {
-    border: 1px solid $deepBlue;
     border-radius: $borderRadiusAmount;
-    box-shadow: 0 0 15px 2px $deepBlue;
     .about_card_img {
       height: auto;
-      padding: 0;
+      padding: 15px;
+      box-shadow: 0 0 15px 2px #888;
       img{
         width: 100%;
         height: 100%;
-        border-radius: $borderRadiusAmount 0 0 $borderRadiusAmount;
+        border-radius: $borderRadiusAmount;
       }
     }
     .about_card_info {
-      padding: 20px;
+      padding: 25px;
+      box-shadow: 0 0 15px 2px #888;
       h3 {
         color: $deepBlue;
       }
@@ -234,9 +249,7 @@ nav {
         color: $lightGrey;
       }
       .btn_box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flexCenterAlignment();
         a {
           overflow: hidden;
           @include btnHoverEffect();
@@ -244,7 +257,33 @@ nav {
       }
     }
   }
-
-
 }
 // END:: ABOUT US SECTION STYLES
+
+// START:: WHY SECTION STYLES
+.why_sec {
+  padding-top: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .icons_wraper {
+    background: $lightCoffee;
+    background: -webkit-linear-gradient(to top, $lightCoffee, #fff);
+    background: linear-gradient(to top, $lightCoffee, #fff);
+
+    img {
+      min-width: 120px;
+      max-width: 120px;
+      min-height: 120px;
+      max-height: 120px;
+    }
+    h5 {
+      color: $deepBlue;
+    }
+  }
+}
+// END:: WHY SECTION STYLES

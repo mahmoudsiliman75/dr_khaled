@@ -128,6 +128,10 @@ nav .lang-button button span:nth-child(2) {
   max-height: 500px;
 }
 
+.about_us_sec {
+  padding-bottom: 30px;
+}
+
 .about_us_sec .about_img_box {
   min-height: 350px;
   max-height: 350px;
@@ -140,25 +144,26 @@ nav .lang-button button span:nth-child(2) {
 }
 
 .about_us_sec .about_card {
-  border: 1px solid #00303f;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 15px 2px #00303f;
-          box-shadow: 0 0 15px 2px #00303f;
 }
 
 .about_us_sec .about_card .about_card_img {
   height: auto;
-  padding: 0;
+  padding: 15px;
+  -webkit-box-shadow: 0 0 15px 2px #888;
+          box-shadow: 0 0 15px 2px #888;
 }
 
 .about_us_sec .about_card .about_card_img img {
   width: 100%;
   height: 100%;
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px;
 }
 
 .about_us_sec .about_card .about_card_info {
-  padding: 20px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 15px 2px #888;
+          box-shadow: 0 0 15px 2px #888;
 }
 
 .about_us_sec .about_card .about_card_info h3 {
@@ -189,6 +194,8 @@ nav .lang-button button span:nth-child(2) {
   border: 2px solid #d0af85;
   background-color: transparent;
   color: #d0af85;
+  font-size: 13px;
+  font-weight: bold;
   text-transform: uppercase;
   position: relative;
   border-radius: 30px;
@@ -214,5 +221,44 @@ nav .lang-button button span:nth-child(2) {
 
 .about_us_sec .about_card .about_card_info .btn_box a:hover::before {
   left: 0;
+}
+
+.why_sec {
+  padding-top: 30px;
+}
+
+.why_sec .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.why_sec .header_wraper h2 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.why_sec .icons_wraper {
+  background: #d0af85;
+  background: -webkit-gradient(linear, left bottom, left top, from(#d0af85), to(#fff));
+  background: linear-gradient(to top, #d0af85, #fff);
+}
+
+.why_sec .icons_wraper img {
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
+}
+
+.why_sec .icons_wraper h5 {
+  color: #00303f;
 }
 /*# sourceMappingURL=style.css.map */
