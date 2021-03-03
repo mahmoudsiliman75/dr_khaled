@@ -745,6 +745,63 @@ nav {
 }
 // END:: DR OPERATION SECTION STYLES
 
+// START:: HOW TO SHARE SECTION STYLES
+.share {
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .share_img_wraper {
+    img {
+      width: 100%;
+      min-height: 400px;
+      max-height: 400px;
+      border-radius: $borderRadiusAmount;
+    }
+  }
+
+  .share_info_wraper {
+    padding-top: 20px;
+    font-size: 20px;
+    color: $lightGrey;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .form_wraper {
+    padding-top: $paddingAmount;
+    padding-bottom: $paddingAmount;
+    form {
+      .form-group {
+        input,
+        textarea {
+          width: 100%;
+          border: 1px solid $deepBlue;
+          padding: 30px;
+          border-radius: $borderRadiusAmount;
+          &:focus {
+            outline: none;
+          }
+        }
+        textarea {
+          height: 250px;
+        }
+      }
+
+      .btn_box {
+        @include flexCenterAlignment();
+        button {
+          @include btnHoverEffect();
+        }
+      }
+    }
+  }
+}
+// END:: HOW TO SHARE SECTION STYLES
+
 // START:: FOOTER STYLES
 footer {
   background-color: $darkGrey;
