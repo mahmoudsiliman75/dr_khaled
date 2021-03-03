@@ -50,7 +50,7 @@
       </li>
 
       <li> 
-        <a href="#"> Dr.khaled Profile </a>
+        <a href="DrProfile.php"> Dr.khaled Profile </a>
       </li>
 
       <li> 

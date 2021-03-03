@@ -30,7 +30,7 @@ $largeBorderRadiusAmount: 30px;
 
 @mixin menuHoverEffect {
   overflow: hidden;
-  margin: 0 8px;
+  margin: 0 10px;
   padding-bottom: 5px;
   position: relative;
   font-size: 15px;
@@ -130,6 +130,60 @@ body {
   font-family: 'Noto Serif JP', serif;
   overflow-x: hidden;
   height: 20000px;
+  &::-webkit-scrollbar {
+    background-color: $lighterGrey;
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $deepBlue;
+  }
+}
+
+.header_img_wraper {
+  position: relative;
+  min-height: 250px;
+  max-height: 250px;
+  img {
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+  }
+  .section_svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .section_svg svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+  }
+
+  .section_svg .shape-fill {
+    fill: #FFFFFF;
+  }
+
+  /** For tablet devices **/
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .section_svg svg {
+      width: calc(133% + 1.3px);
+      height: 41px;
+    }
+  }
+
+/** For mobile devices **/
+  @media (max-width: 767px) {
+    .section_svg svg {
+      width: calc(199% + 1.3px);
+      height: 52px;
+    }
+  }
 }
 // END:: GLOBAL STYLES
 
@@ -326,7 +380,6 @@ nav {
 // START:: BOOKS SECTION STYLES
 .books_sec {
   padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
   .books_panel {
     padding: 20px;
     height: fit-content;
@@ -618,6 +671,79 @@ nav {
   }
 }
 // END:: VIDEOS SECTION STYLES
+
+// START:: ABOUT PAGE STYLE
+.about_dr_desc {
+  .about_img {
+    height: auto;
+    width: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: $borderRadiusAmount;
+    }
+  }
+
+  .about_text {
+    @include flexCenterAlignment();
+    flex-direction: column;
+    h3 {
+      width: 100%;
+      color: $deepBlue;
+      text-align: start;
+    }
+    p {
+      color: $lightGrey;
+      text-align: start;
+    }
+    .icon_wpaper {
+      @include flexCenterAlignment();
+      flex-direction: column;
+      img {
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        max-height: 120px;
+      }
+      h6 {
+        text-align: center;
+        color: $deepBlue;
+      }
+    }
+  }
+}
+// END:: ABOUT PAGE STYLE
+
+// START:: DR OPERATION SECTION STYLES
+.dr_operation {
+  padding-top: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+  
+  .operation_img_wraper {
+    img {
+      width: 100%;
+      min-height: 250px;
+      max-height: 250px;
+      border-radius: $borderRadiusAmount;
+    }
+    h5 {
+      color: $deepBlue;
+    }
+  }
+
+  .btn_box {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: DR OPERATION SECTION STYLES
 
 // START:: FOOTER STYLES
 footer {
