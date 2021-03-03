@@ -110,6 +110,14 @@
 </div>
 <!-- END:: WHY DR SECTION -->
 
+<!-- START:: LIBERARY SECTION -->
+<div class="liberary">
+  <div class="overlay">
+    <h2> All You Need Under One Roof </h2>
+  </div>
+</div>
+<!-- END:: LIBERARY SECTION -->
+
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->
