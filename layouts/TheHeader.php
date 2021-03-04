@@ -54,7 +54,7 @@
       </li>
 
       <li> 
-        <a href="#"> Operations </a>
+        <a href="AllOperations.php"> Operations </a>
       </li>
 
       <li> 

@@ -234,7 +234,7 @@
   <div class="container">
     <div class="row justify-content-center">
 
-      <div class="col-8 form_wraper">
+      <div class="col-11 col-md-8 form_wraper">
         <div class="header_wraper">
           <h2> Write Us A Message </h2>
         </div>

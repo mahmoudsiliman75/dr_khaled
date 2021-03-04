@@ -10,7 +10,7 @@
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
           <a href="DrProfile.php"> Dr.Khaled Profile </a>
-          <a href="#"> Operations </a>
+          <a href="AllOperations.php"> Operations </a>
           <a href="AllBooks.php"> Books </a>
           <a href="ShareWithUs.php"> How To Share With Us </a>
           <a href="AllVideos.php"> Videp Liberary </a>

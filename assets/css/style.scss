@@ -129,7 +129,7 @@ $largeBorderRadiusAmount: 30px;
 body {
   font-family: 'Noto Serif JP', serif;
   overflow-x: hidden;
-  height: 20000px;
+  // height: 20000px;
   &::-webkit-scrollbar {
     background-color: $lighterGrey;
     width: 5px;
@@ -432,6 +432,7 @@ nav {
 
         ul {
           width: 100%;
+          min-height: 95px;
           li {
             margin-top: 10px;
             display: flex;
@@ -520,6 +521,7 @@ nav {
     }
 
     .owl-nav {
+      direction: ltr;
       margin-top: 0;
       position: absolute;
       left: 0;
@@ -607,6 +609,7 @@ nav {
     }
 
     .owl-nav {
+      direction: ltr;
       margin-top: 0;
       position: absolute;
       left: 0;
@@ -881,6 +884,7 @@ nav {
 
         ul {
           width: 100%;
+          min-height: 95px;
           li {
             margin-top: 10px;
             display: flex;
@@ -1128,6 +1132,80 @@ nav {
   }
 }
 // END:: AUTH PAGE STYLES
+
+// START:: OPERATION PAGE STYLES
+.operations {
+  padding-top: $paddingAmount;
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .operation_wraper {
+    .operation_img_wraper {
+      height: auto;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: $borderRadiusAmount;
+      }
+    }
+
+    .operation_text_wraper {
+      h4 {
+        color: $deepBlue;
+        text-align: start;
+      }
+
+      p {
+        font-size: 18px;
+        color: $lightGrey;
+        line-height: 1.6;
+        text-align: justify;
+      }
+
+      .btn_box {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        a {
+          @include btnHoverEffect();
+        }
+      }
+    }
+
+    &:nth-child(odd) {
+      .operation_img_wraper {
+        order: 2;
+      }
+      .operation_text_wraper {
+        order: 1;
+      }
+    }
+
+    @media (max-width: 767px) {
+      &:nth-child(odd) {
+        .operation_img_wraper {
+          order: 1;
+        }
+        .operation_text_wraper {
+          order: 2;
+        }
+      }
+    }
+  }
+
+  .btn_box {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: OPERATION PAGE STYLES
 
 // START:: FOOTER STYLES
 footer {

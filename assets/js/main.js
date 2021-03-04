@@ -12,7 +12,7 @@ $(document).ready( function() {
     center:true,
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
-    // rtl: true, 
+    rtl: true, 
   });
 
   $('#videos_slider').owlCarousel({
@@ -24,7 +24,7 @@ $(document).ready( function() {
     nav:true,
     dots: false,
     items:1,
-    // rtl: true, 
+    rtl: true, 
     responsive:{
       0:{
           items:1,
