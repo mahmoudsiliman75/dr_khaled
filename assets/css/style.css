@@ -1539,6 +1539,159 @@ nav .lang-button button span:nth-child(2) {
   left: 0;
 }
 
+.auth_forms_wraper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.auth_forms_wraper .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.auth_forms_wraper .header_wraper h2 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.auth_forms_wraper form {
+  position: relative;
+  margin-top: 15px;
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 15px 2px #888;
+          box-shadow: 0 0 15px 2px #888;
+}
+
+.auth_forms_wraper form.login {
+  max-height: 300px;
+}
+
+.auth_forms_wraper form.sign_up {
+  max-height: 500px;
+}
+
+.auth_forms_wraper form.sign_up svg {
+  position: relative;
+  top: -233px;
+  right: -180px;
+  z-index: -1;
+}
+
+.auth_forms_wraper form.sign_up svg:last-of-type {
+  top: -319px;
+  left: -200px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.auth_forms_wraper form svg {
+  position: relative;
+  top: -233px;
+  right: -180px;
+  z-index: -1;
+}
+
+.auth_forms_wraper form .form_overlay {
+  padding: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.auth_forms_wraper form .form_overlay .form-group {
+  width: 100%;
+}
+
+.auth_forms_wraper form .form_overlay .form-group input {
+  width: 100%;
+  background-color: transparent;
+  padding: 30px 10px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 15px 2px #888;
+          box-shadow: 0 0 15px 2px #888;
+}
+
+.auth_forms_wraper form .form_overlay .btn_box {
+  width: 100%;
+}
+
+.auth_forms_wraper form .form_overlay .btn_box button {
+  margin-bottom: 15px;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 2px solid #d0af85;
+  background-color: transparent;
+  color: #d0af85;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 30px;
+  padding: 10px 10px;
+  -webkit-box-shadow: 0 0 15px 2px #888;
+          box-shadow: 0 0 15px 2px #888;
+}
+
+.auth_forms_wraper form .form_overlay .btn_box button::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #d0af85;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.auth_forms_wraper form .form_overlay .btn_box button:hover {
+  color: #fff;
+}
+
+.auth_forms_wraper form .form_overlay .btn_box button:hover::before {
+  left: 0;
+}
+
+.auth_forms_wraper form .form_overlay .btn_box span {
+  color: #00303f;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.auth_forms_wraper form .form_overlay .btn_box span:hover {
+  text-decoration: underline;
+  color: #315e92;
+}
+
 footer {
   background-color: #212121;
 }

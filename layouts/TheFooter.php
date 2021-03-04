@@ -18,7 +18,7 @@
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="CairoUniversity.php"> Cairo University </a>
-          <a href="#"> Login </a>
+          <a href="auth.php"> Login </a>
           <a href="#"> User Profile </a>
           <a href="#"> Payment Gateway </a>
           <a href="ContactUs.php"> Contact Us </a>

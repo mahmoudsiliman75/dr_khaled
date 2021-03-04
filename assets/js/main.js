@@ -1,4 +1,5 @@
 $(document).ready( function() {
+  // START:: OWL CAROUSEL
   $('#testemonials_slider').owlCarousel({
     loop:true,
     autoplay:true,
@@ -40,4 +41,12 @@ $(document).ready( function() {
       }
     }
   });
+  // START:: OWL CAROUSEL
+
+  // START:: TOGGLE FORMS
+  $('#toggle_forms').on('click', function() {
+    $('#login_form_wraper').css('display', 'none');
+    $('#signup_form_wraper').css('display', 'block');
+  });
+  // END:: TOGGLE FORMS
 });

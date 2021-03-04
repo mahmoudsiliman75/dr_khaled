@@ -74,7 +74,7 @@
       </li>
 
       <li> 
-        <a href="#"> Login </a>
+        <a href="auth.php"> Login </a>
       </li>
 
       <li> 
