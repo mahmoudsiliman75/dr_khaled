@@ -1169,7 +1169,6 @@ nav .lang-button button span:nth-child(2) {
 
 .all_books .filter_wraper {
   padding: 20px 0;
-  border: 1px solid #00303f;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1180,6 +1179,8 @@ nav .lang-button button span:nth-child(2) {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: 0 0 15px 2px #888;
+          box-shadow: 0 0 15px 2px #888;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1383,10 +1384,10 @@ nav .lang-button button span:nth-child(2) {
 }
 
 .get_in_touch .social img {
-  min-width: 60px;
-  max-width: 60px;
-  min-height: 60px;
-  max-height: 60px;
+  min-width: 70px;
+  max-width: 70px;
+  min-height: 70px;
+  max-height: 70px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -1455,6 +1456,87 @@ nav .lang-button button span:nth-child(2) {
   color: #d0af85;
   -webkit-margin-end: 10px;
           margin-inline-end: 10px;
+}
+
+.videos {
+  padding-bottom: 30px;
+}
+
+.videos .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.videos .header_wraper h2 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.videos .video_wraper iframe {
+  width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.videos .video_wraper h4 {
+  color: #00303f;
+  text-align: center;
+}
+
+.videos .btn_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.videos .btn_box a {
+  overflow: hidden;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 2px solid #d0af85;
+  background-color: transparent;
+  color: #d0af85;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 30px;
+}
+
+.videos .btn_box a::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #d0af85;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.videos .btn_box a:hover {
+  color: #fff;
+}
+
+.videos .btn_box a:hover::before {
+  left: 0;
 }
 
 footer {
