@@ -1360,6 +1360,103 @@ nav .lang-button button span:nth-child(2) {
   left: 0;
 }
 
+.get_in_touch {
+  padding-top: 30px;
+}
+
+.get_in_touch .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.get_in_touch .header_wraper h2 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.get_in_touch .social img {
+  min-width: 60px;
+  max-width: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.get_in_touch .social img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.contact_info .card {
+  border: none;
+}
+
+.contact_info .card .card_title svg {
+  color: #d0af85;
+}
+
+.contact_info .card .card_list li {
+  color: #00303f;
+}
+
+.contact_info .line_wraper {
+  padding-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact_info .line_wraper img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .contact_info .line_wraper {
+    display: none !important;
+  }
+}
+
+.maps .map_info_wraper h3 {
+  text-align: start;
+  color: #00303f;
+}
+
+.maps .map_info_wraper .iframe_waper iframe {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.maps .map_info_wraper .map_text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.maps .map_info_wraper .map_text ul li span {
+  color: #d0af85;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+
 footer {
   background-color: #212121;
 }

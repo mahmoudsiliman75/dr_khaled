@@ -21,7 +21,7 @@
           <a href="#"> Login </a>
           <a href="#"> User Profile </a>
           <a href="#"> Payment Gateway </a>
-          <a href="#"> Contact Us </a>
+          <a href="ContactUs.php"> Contact Us </a>
         </div>
       </div>
 
