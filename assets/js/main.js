@@ -49,4 +49,10 @@ $(document).ready( function() {
     $('#signup_form_wraper').css('display', 'block');
   });
   // END:: TOGGLE FORMS
+
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+
 });

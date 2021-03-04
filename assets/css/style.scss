@@ -139,6 +139,34 @@ body {
   }
 }
 
+// START:: FLEX SLIDER GLOBAL STYLES
+.flexslider {
+  .slides {
+    img {
+      border-radius: $borderRadiusAmount;
+      min-height: 400px;
+      max-height: 400px;
+    }
+  } 
+}
+
+.flex-viewport {
+  max-height: 400px !important;
+}
+
+.flex-direction-nav {
+  display: none !important;
+}
+
+.flex-control-thumbs {
+  max-height: 120px !important;
+  img {
+    height: 120px !important;
+    border-radius: $borderRadiusAmount;
+  }
+}
+// END:: FLEX SLIDER GLOBAL STYLES
+
 .header_img_wraper {
   position: relative;
   min-height: 250px;
@@ -1206,6 +1234,20 @@ nav {
   }
 }
 // END:: OPERATION PAGE STYLES
+
+// START:: BOOK DETAILS PAGE STYLES
+.book_info {
+  padding-top: $paddingAmount;
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    display: flex;
+    justify-content: start;
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+}
+// END:: BOOK DETAILS PAGE STYLES
 
 // START:: FOOTER STYLES
 footer {

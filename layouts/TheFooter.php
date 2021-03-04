@@ -121,6 +121,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700;900&display=swap">
 <!-- END:: INCLUDING SITE FONT -->
 
+<!-- START:: INCLUDING SPLIDE SCRIPT FILE -->
+<script src="assets/js/splide.min.js"></script>
+<!-- END:: INCLUDING SPLIDE SCRIPT FILE -->
+
+<script src="assets/js/jquery.flexslider.js"></script>
+
 <!-- START:: INCLUDING MAIN SCRIPT FILE -->
 <script src="assets/js/main.js"></script>
 <!-- END:: INCLUDING MAIN SCRIPT FILE -->

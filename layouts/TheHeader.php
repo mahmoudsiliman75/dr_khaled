@@ -21,6 +21,9 @@
   <!-- START:: INCLUDING BOOTSTRAP STYLE FILE -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <!-- END:: INCLUDING BOOTSTRAP STYLE FILE -->
+
+  <link rel="stylesheet" href="assets/css/flexslider.css">
+  <!-- <link rel="stylesheet" href="assets/css/flexslider-rtl-min.css"> -->
   
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">

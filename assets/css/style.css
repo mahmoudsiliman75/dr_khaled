@@ -12,6 +12,29 @@ body::-webkit-scrollbar-thumb {
   background-color: #00303f;
 }
 
+.flexslider .slides img {
+  border-radius: 10px;
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.flex-viewport {
+  max-height: 400px !important;
+}
+
+.flex-direction-nav {
+  display: none !important;
+}
+
+.flex-control-thumbs {
+  max-height: 120px !important;
+}
+
+.flex-control-thumbs img {
+  height: 120px !important;
+  border-radius: 10px;
+}
+
 .header_img_wraper {
   position: relative;
   min-height: 250px;
@@ -1857,6 +1880,26 @@ nav .lang-button button span:nth-child(2) {
 
 .operations .btn_box a:hover::before {
   left: 0;
+}
+
+.book_info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.book_info .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.book_info .header_wraper h2 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
 }
 
 footer {
