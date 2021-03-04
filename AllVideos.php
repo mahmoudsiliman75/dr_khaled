@@ -16,11 +16,11 @@
 </div>
 <!-- END:: HEDAER IMAGE SECTION -->
 
-<!-- START:: POERATION VIDEOS -->
+<!-- START:: ALL VIDEOS -->
 <div class="videos">
   <div class="container">
     <div class="header_wraper">
-      <h2> Operations Videos </h2>
+      <h2> Videos Liberary </h2>
     </div>
 
     <div class="row justify-content-center mt-3">
@@ -95,7 +95,7 @@
     </div>
   </div>
 </div>
-<!-- END:: POERATION VIDEOS -->
+<!-- END:: ALL VIDEOS -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

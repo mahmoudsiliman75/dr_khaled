@@ -13,7 +13,7 @@
           <a href="#"> Operations </a>
           <a href="AllBooks.php"> Books </a>
           <a href="ShareWithUs.php"> How To Share With Us </a>
-          <a href="#"> Videp Liberary </a>
+          <a href="AllVideos.php"> Videp Liberary </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">

@@ -70,7 +70,7 @@
       </li>
 
       <li> 
-        <a href="#"> Videos Liberary </a>
+        <a href="AllVideos.php"> Videos Liberary </a>
       </li>
 
       <li> 
