@@ -12,10 +12,12 @@ body::-webkit-scrollbar-thumb {
   background-color: #00303f;
 }
 
-.flexslider .slides img {
+.flexslider .slides img,
+.flexslider .slides iframe {
   border-radius: 10px;
   min-height: 400px;
   max-height: 400px;
+  width: 100%;
 }
 
 .flex-viewport {
@@ -33,6 +35,10 @@ body::-webkit-scrollbar-thumb {
 .flex-control-thumbs img {
   height: 120px !important;
   border-radius: 10px;
+}
+
+.flex-control-thumbs li {
+  padding: 0 5px;
 }
 
 .header_img_wraper {
@@ -201,13 +207,13 @@ nav .lang-button button span:nth-child(2) {
 }
 
 .carousel .carousel-inner {
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .carousel .carousel-inner img {
   width: 100%;
-  min-height: 500px;
-  max-height: 500px;
+  min-height: 600px;
+  max-height: 600px;
 }
 
 .about_us_sec {
@@ -1900,6 +1906,102 @@ nav .lang-button button span:nth-child(2) {
   color: #00303f;
   border-left: 3px solid #d0af85;
   padding: 8px;
+}
+
+.book_info .book_text_wraper .tabs_wraper {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 8px;
+}
+
+.book_info .book_text_wraper .tabs_wraper .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-bottom: 0 !important;
+}
+
+.book_info .book_text_wraper .tabs_wraper .nav .nav-item .nav-link {
+  color: #00303f;
+}
+
+.book_info .book_text_wraper .tabs_wraper .nav .nav-item .nav-link.active {
+  background-color: #d0af85;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.book_info .book_text_wraper .tabs_wraper .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.book_info .book_text_wraper .tabs_wraper .price span {
+  color: #00303f;
+  margin: 0 8px;
+}
+
+.book_info .book_text_wraper .tabs_wraper .price span.old_price {
+  color: #c1c1c1;
+  text-decoration: line-through;
+}
+
+.book_info .tab-content {
+  padding-bottom: 15px;
+  min-height: 345px;
+  max-height: 345px;
+  overflow-y: auto;
+}
+
+.book_info .tab-content::-webkit-scrollbar {
+  background-color: #c1c1c1;
+  width: 5px;
+}
+
+.book_info .tab-content::-webkit-scrollbar-thumb {
+  background-color: #00303f;
+}
+
+.book_info .tab-content .tab-pane {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.book_info .actions_wraper {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 8px;
+}
+
+.book_info .actions_wraper a {
+  text-decoration: none;
+  color: #ff7c00;
+  font-size: 18px;
+}
+
+.book_info .actions_wraper a span {
+  color: #00303f;
+}
+
+.book_info .actions_wraper a span svg {
+  color: #666;
+}
+
+.book_info .actions_wraper button {
+  border: none;
+  background: transparent;
+  color: #bb0808;
 }
 
 footer {

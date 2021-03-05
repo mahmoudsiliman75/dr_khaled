@@ -142,10 +142,12 @@ body {
 // START:: FLEX SLIDER GLOBAL STYLES
 .flexslider {
   .slides {
-    img {
+    img,
+    iframe {
       border-radius: $borderRadiusAmount;
       min-height: 400px;
       max-height: 400px;
+      width: 100%
     }
   } 
 }
@@ -164,6 +166,10 @@ body {
     height: 120px !important;
     border-radius: $borderRadiusAmount;
   }
+}
+
+.flex-control-thumbs li {
+  padding: 0 5px;
 }
 // END:: FLEX SLIDER GLOBAL STYLES
 
@@ -295,11 +301,11 @@ nav {
   }
 
   .carousel-inner {
-    max-height: 500px;
+    max-height: 600px;
     img {
       width: 100%;
-      min-height: 500px;
-      max-height: 500px;
+      min-height: 600px;
+      max-height: 600px;
     }
   }
 }
@@ -1246,8 +1252,88 @@ nav {
       @include mainHeaderStyle();
     }
   }
+
+  .book_text_wraper {
+    .tabs_wraper {
+      border-top: 1px solid #eaeaea;
+      border-bottom: 1px solid #eaeaea;
+      padding: 8px;
+      .nav {
+        display: flex;
+        justify-content: start;
+        margin-bottom: 0 !important;
+        .nav-item {
+          .nav-link {
+            color: $deepBlue;
+            &.active {
+              background-color: $lightCoffee;
+              color: $white;
+              border-radius: $largeBorderRadiusAmount;
+            }
+          }
+        }
+      }
+
+      .price {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        span {
+          color: $deepBlue;
+          margin: 0 8px;
+          &.old_price {
+            color: $lighterGrey;
+            text-decoration: line-through;
+          }
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    padding-bottom: 15px;
+    min-height: 345px;
+    max-height: 345px;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      background-color: $lighterGrey;
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $deepBlue;
+    }
+    .tab-pane {
+      color:$lightGrey;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  }
+
+  .actions_wraper {
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding: 8px;
+    a {
+      text-decoration: none;
+      color: $lightOrange;
+      font-size: 18px;
+      span {
+        color: $deepBlue;
+        svg {
+          color: $lightGrey;
+        }
+      }
+    }
+    button {
+      border: none;
+      background: transparent;
+      color: $midRed;
+    }
+  }
 }
 // END:: BOOK DETAILS PAGE STYLES
+
+
 
 // START:: FOOTER STYLES
 footer {
