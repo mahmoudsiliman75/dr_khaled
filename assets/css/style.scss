@@ -1332,7 +1332,50 @@ nav {
 }
 // END:: BOOK DETAILS PAGE STYLES
 
+//  START:: BOOK DEEP DETAILS SECTION STYLES
+.deep_details {
+  padding-top: $paddingAmount;
+  padding-bottom: $paddingAmount;
+  .deep_text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 $paddingAmount;
+    .header_wraper {
+      h3 {
+        display: flex;
+        @include mainHeaderStyle();
+      }
+    }
 
+    p {
+      color: $lightGrey;
+      font-size: 18px;
+      display: flex;
+      span {
+        font-weight: bold;
+        color: $darkGrey;
+      }
+    }
+  }
+
+  .deep_imgs {
+    padding: 0 $paddingAmount;
+    .header_wraper {
+      h3 {
+        @include  mainHeaderStyle();
+      }
+    }
+    .img_wraper {
+      img {
+        min-width: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        max-height: 200px;
+      }
+    }
+  }
+}
+//  END:: BOOK DEEP DETAILS SECTION STYLES
 
 // START:: FOOTER STYLES
 footer {

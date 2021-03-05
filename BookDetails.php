@@ -16,7 +16,7 @@
 </div>
 <!-- END:: HEDAER IMAGE SECTION -->
 
-<!-- START:: BOOK INFO SECTIO -->
+<!-- START:: BOOK INFO SECTION -->
 <div class="book_info">
 	<div class="container-fluid">
 		<div class="row">
@@ -113,9 +113,9 @@
 		</div>
 	</div>
 </div>
-<!-- START:: BOOK INFO SECTIO -->
+<!-- START:: BOOK INFO SECTION -->
 
-<!-- START:: BOOK HIGHLIGHTS -->
+<!-- START:: BOOK HIGHLIGHTS SECTION -->
 <div class="why_sec">
   <div class="container">
     <div class="header_wraper">
@@ -152,7 +152,67 @@
     </div>
   </div>
 </div>
-<!-- END:: BOOK HIGHLIGHTS -->
+<!-- END:: BOOK HIGHLIGHTS SECTION  -->
+
+<!-- START:: BOOK DEEP DETAILS SECTION -->
+<div class="deep_details">
+	<div class="container_fluid">
+		<div class="row justify-content-between">
+			<div class="col-12 col-md-5">
+				<div class="deep_text">
+					<div class="header_wraper mb-3">
+						<h3> Book Details </h3>
+					</div>
+
+					<p> <span> ISBN-13: </span>  978-1509307951 </p>
+					<p> <span> ISBN-10: </span>  1509307958 </p>
+					<p> <span> Publisher: </span>  Microsoft Press </p>
+					<p> <span> Edition: </span>  1 <sup>st</sup> Edition </p>
+					<p> <span> Publicaion Date: </span> October 8, 2018 </p>
+					<p> <span> Language: </span> English </p>
+					<p> <span> File Size: </span> 21800 KB </p>
+					<p> <span> PDF Version: </span> Available </p>
+					<p> <span> Hard Copy Version: </span> Available </p>
+					<p> <span> Pages: </span> 431 Pages </p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-5">
+				<div class="deep_imgs">
+					<div class="header_wraper">
+						<h3> Hard Copy Stores </h3>
+					</div>
+					<div class="row justify-content-between justify-content-md-start">
+						<div class="col-5 d-flex py-3">
+							<div class="img_wraper">
+								<img src="assets/media/store1.jpg" alt="Brand 1">
+							</div>
+						</div>
+
+						<div class="col-5 d-flex py-3">
+							<div class="img_wraper">
+								<img src="assets/media/store2.jpg" alt="Brand 1">
+							</div>
+						</div>
+
+						<div class="col-5 d-flex py-3">
+							<div class="img_wraper">
+								<img src="assets/media/store3.jpg" alt="Brand 1">
+							</div>
+						</div>
+
+						<div class="col-5 d-flex py-3">
+							<div class="img_wraper">
+								<img src="assets/media/store4.jpg" alt="Brand 1">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END:: BOOK DEEP DETAILS SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

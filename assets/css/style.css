@@ -2003,6 +2003,61 @@ nav .lang-button button span:nth-child(2) {
   color: #bb0808;
 }
 
+.deep_details {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.deep_details .deep_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 30px;
+}
+
+.deep_details .deep_text .header_wraper h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.deep_details .deep_text p {
+  color: #666;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.deep_details .deep_text p span {
+  font-weight: bold;
+  color: #212121;
+}
+
+.deep_details .deep_imgs {
+  padding: 0 30px;
+}
+
+.deep_details .deep_imgs .header_wraper h3 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.deep_details .deep_imgs .img_wraper img {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+}
+
 footer {
   background-color: #212121;
 }
