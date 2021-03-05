@@ -502,6 +502,7 @@ nav .lang-button button span:nth-child(2) {
 .books_sec .book_details .card .card-body ul {
   width: 100%;
   min-height: 95px;
+  padding: 0;
 }
 
 .books_sec .book_details .card .card-body ul li {
@@ -1272,6 +1273,7 @@ nav .lang-button button span:nth-child(2) {
 .all_books .book_details .card .card-body ul {
   width: 100%;
   min-height: 95px;
+  padding: 0;
 }
 
 .all_books .book_details .card .card-body ul li {
@@ -2020,6 +2022,12 @@ nav .lang-button button span:nth-child(2) {
   padding: 0 30px;
 }
 
+.deep_details .deep_text .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .deep_details .deep_text .header_wraper h3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2057,6 +2065,283 @@ nav .lang-button button span:nth-child(2) {
   max-width: 200px;
   min-height: 200px;
   max-height: 200px;
+}
+
+.related_books {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.related_books .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.related_books .header_wraper h2 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.related_books .owl-carousel {
+  position: relative;
+}
+
+.related_books .owl-carousel .item .card {
+  height: 100%;
+  position: relative;
+  border: none;
+}
+
+.related_books .owl-carousel .item .card .card_img_wraper img {
+  min-height: 320px;
+  max-height: 320px;
+  border-radius: 20px;
+}
+
+.related_books .owl-carousel .item .card .card_img_wraper .badge {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  background-color: #d0af85;
+  color: #00303f;
+  padding: 5px;
+}
+
+.related_books .owl-carousel .item .card .card-body {
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.related_books .owl-carousel .item .card .card-body h5 {
+  color: #00303f;
+}
+
+.related_books .owl-carousel .item .card .card-body ul {
+  width: 100%;
+  margin-bottom: 0 !important;
+  padding: 0;
+  direction: ltr;
+}
+
+.related_books .owl-carousel .item .card .card-body ul li {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #00303f;
+}
+
+.related_books .owl-carousel .item .card .card-body ul li:first-child {
+  margin-top: 0;
+}
+
+.related_books .owl-carousel .item .card .card-body ul li:last-child span:last-child {
+  color: #00303f;
+}
+
+.related_books .owl-carousel .item .card .card-body .btn_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+.related_books .owl-carousel .item .card .card-body .btn_box a {
+  overflow: hidden;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 2px solid #d0af85;
+  background-color: transparent;
+  color: #d0af85;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 30px;
+}
+
+.related_books .owl-carousel .item .card .card-body .btn_box a::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #d0af85;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.related_books .owl-carousel .item .card .card-body .btn_box a:hover {
+  color: #fff;
+}
+
+.related_books .owl-carousel .item .card .card-body .btn_box a:hover::before {
+  left: 0;
+}
+
+.related_books .owl-carousel .owl-nav {
+  direction: ltr;
+  margin-top: 0;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.related_books .owl-carousel .owl-nav .owl-prev,
+.related_books .owl-carousel .owl-nav .owl-next {
+  position: relative;
+  background-color: #d0af85;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.related_books .owl-carousel .owl-nav .owl-prev:hover,
+.related_books .owl-carousel .owl-nav .owl-next:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.related_books .owl-carousel .owl-nav .owl-prev::before {
+  content: "\f0d9";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d0af85;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.related_books .owl-carousel .owl-nav .owl-next::before {
+  content: "\f0da";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d0af85;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.related_books .btn_box {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.related_books .btn_box a {
+  overflow: hidden;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 2px solid #d0af85;
+  background-color: transparent;
+  color: #d0af85;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 30px;
+}
+
+.related_books .btn_box a::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #d0af85;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.related_books .btn_box a:hover {
+  color: #fff;
+}
+
+.related_books .btn_box a:hover::before {
+  left: 0;
 }
 
 footer {

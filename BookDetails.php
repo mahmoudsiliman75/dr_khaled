@@ -269,6 +269,238 @@
 </div>
 <!-- END:: VIDEOS SECTION -->
 
+<!-- START:: RELATED BOOKS SECTION -->
+<div class="related_books">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Related Books </h2>
+    </div>
+
+    <div class="row flex-column align-items-center justify-content-center mt-3">
+      <div id="related_books" class="owl-carousel owl-theme col-12">
+
+        <div class="item">
+					<div class="card">
+						<div class="card_img_wraper">
+							<img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+							<span class="badge"> 
+								<i class="fas fa-book fa-2x"></i>
+							</span>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Book Title</h5>
+							<ul class="list-unstyled">
+								<li> 
+									<span> $50.00 </span> 
+									<span> 
+										<i class="fas fa-cart-plus fa-lg"></i>
+									</span> 
+								</li>
+							</ul>
+							<div class="btn_box">
+								<a href="BookDetails.php"> more details </a>
+							</div>
+						</div>
+
+					</div>
+        </div>
+
+				<div class="item">
+					<div class="card">
+						<div class="card_img_wraper">
+							<img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+							<span class="badge"> 
+								<i class="fas fa-book fa-2x"></i>
+							</span>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Book Title</h5>
+							<ul class="list-unstyled">
+								<li> 
+									<span> $50.00 </span> 
+									<span> 
+										<i class="fas fa-cart-plus fa-lg"></i>
+									</span> 
+								</li>
+							</ul>
+							<div class="btn_box">
+								<a href="BookDetails.php"> more details </a>
+							</div>
+						</div>
+
+					</div>
+        </div>
+
+				<div class="item">
+					<div class="card">
+						<div class="card_img_wraper">
+							<img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+							<span class="badge"> 
+								<i class="fas fa-book fa-2x"></i>
+							</span>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Book Title</h5>
+							<ul class="list-unstyled">
+								<li> 
+									<span> $50.00 </span> 
+									<span> 
+										<i class="fas fa-cart-plus fa-lg"></i>
+									</span> 
+								</li>
+							</ul>
+							<div class="btn_box">
+								<a href="BookDetails.php"> more details </a>
+							</div>
+						</div>
+
+					</div>
+        </div>
+
+				<div class="item">
+					<div class="card">
+						<div class="card_img_wraper">
+							<img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+							<span class="badge"> 
+								<i class="fas fa-book fa-2x"></i>
+							</span>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Book Title</h5>
+							<ul class="list-unstyled">
+								<li> 
+									<span> $50.00 </span> 
+									<span> 
+										<i class="fas fa-cart-plus fa-lg"></i>
+									</span> 
+								</li>
+							</ul>
+							<div class="btn_box">
+								<a href="BookDetails.php"> more details </a>
+							</div>
+						</div>
+
+					</div>
+        </div>
+
+				<div class="item">
+					<div class="card">
+						<div class="card_img_wraper">
+							<img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+							<span class="badge"> 
+								<i class="fas fa-book fa-2x"></i>
+							</span>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Book Title</h5>
+							<ul class="list-unstyled">
+								<li> 
+									<span> $50.00 </span> 
+									<span> 
+										<i class="fas fa-cart-plus fa-lg"></i>
+									</span> 
+								</li>
+							</ul>
+							<div class="btn_box">
+								<a href="BookDetails.php"> more details </a>
+							</div>
+						</div>
+
+					</div>
+        </div>
+
+				<div class="item">
+					<div class="card">
+						<div class="card_img_wraper">
+							<img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+							<span class="badge"> 
+								<i class="fas fa-book fa-2x"></i>
+							</span>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Book Title</h5>
+							<ul class="list-unstyled">
+								<li> 
+									<span> $50.00 </span> 
+									<span> 
+										<i class="fas fa-cart-plus fa-lg"></i>
+									</span> 
+								</li>
+							</ul>
+							<div class="btn_box">
+								<a href="BookDetails.php"> more details </a>
+							</div>
+						</div>
+
+					</div>
+        </div>
+
+				<div class="item">
+					<div class="card">
+						<div class="card_img_wraper">
+							<img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+							<span class="badge"> 
+								<i class="fas fa-book fa-2x"></i>
+							</span>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Book Title</h5>
+							<ul class="list-unstyled">
+								<li> 
+									<span> $50.00 </span> 
+									<span> 
+										<i class="fas fa-cart-plus fa-lg"></i>
+									</span> 
+								</li>
+							</ul>
+							<div class="btn_box">
+								<a href="BookDetails.php"> more details </a>
+							</div>
+						</div>
+
+					</div>
+        </div>
+
+				<div class="item">
+					<div class="card">
+						<div class="card_img_wraper">
+							<img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
+							<span class="badge"> 
+								<i class="fas fa-book fa-2x"></i>
+							</span>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Book Title</h5>
+							<ul class="list-unstyled">
+								<li> 
+									<span> $50.00 </span> 
+									<span> 
+										<i class="fas fa-cart-plus fa-lg"></i>
+									</span> 
+								</li>
+							</ul>
+							<div class="btn_box">
+								<a href="BookDetails.php"> more details </a>
+							</div>
+						</div>
+
+					</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: RELATED BOOKS SECTION -->
+
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->
