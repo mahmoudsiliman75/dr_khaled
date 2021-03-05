@@ -115,6 +115,45 @@
 </div>
 <!-- START:: BOOK INFO SECTIO -->
 
+<!-- START:: BOOK HIGHLIGHTS -->
+<div class="why_sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Book Highlights </h2>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row icons_wraper justify-content-center mt-3">
+      <div class="col-6 col-md-2 my-2 px-4 text-center">
+        <img src="assets/media/icons/contract.png" alt="Why Section Icon 1">
+        <h5> 200+ Pages </h5>
+      </div>
+
+      <div class="col-6 col-md-2 my-2 px-4 text-center">
+        <img src="assets/media/icons/financ.png" alt="Why Section Icon 1">
+        <h5> 500+ Sold Books </h5>
+      </div>
+
+      <div class="col-6 col-md-2 my-2 px-4 text-center">
+        <img src="assets/media/icons/contract.png" alt="Why Section Icon 1">
+        <h5> Available In PDF </h5>
+      </div>
+
+      <div class="col-6 col-md-2 my-2 px-4 text-center">
+        <img src="assets/media/icons/team.png" alt="Why Section Icon 1">
+        <h5> 20+ Topics </h5>
+      </div>
+
+			<div class="col-6 col-md-2 my-2 px-4 text-center">
+        <img src="assets/media/icons/contract.png" alt="Why Section Icon 1">
+        <h5> Available In Hard Copy </h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: BOOK HIGHLIGHTS -->
+
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->
