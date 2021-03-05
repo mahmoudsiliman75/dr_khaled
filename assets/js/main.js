@@ -1,4 +1,16 @@
 $(document).ready( function() {
+  // START:: TOGGLE MENU
+  $('#open_menu').on('click', () => {
+    $('.small_menu').css('right', '0'),
+    $('body').css('overflow', 'hidden');
+  });
+
+  $('#colse_menu').on('click', () => {
+    $('.small_menu').css('right', '-100%'),
+    $('body').css('overflow-y', 'auto');
+  });
+  // END:: TOGGLE MENU
+
   // START:: OWL CAROUSEL
   $('#testemonials_slider').owlCarousel({
     loop:true,

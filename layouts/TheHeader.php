@@ -22,9 +22,10 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <!-- END:: INCLUDING BOOTSTRAP STYLE FILE -->
 
+  <!-- START:: INCLUDING FLEX SLIDER STYLE FILE -->
   <link rel="stylesheet" href="assets/css/flexslider.css">
-  <!-- <link rel="stylesheet" href="assets/css/flexslider-rtl-min.css"> -->
-  
+  <!-- END:: INCLUDING FLEX SLIDER STYLE FILE -->
+
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- END:: INCLUDING MAIN STYLE FILE -->
@@ -87,14 +88,69 @@
   </div>
   <!-- START:: NAV LINKS -->
 
-  <!-- START:: LANG BUTTON -->
-  <div class="lang-button">
-    <button> 
-      <span> E </span>
-      <span> ع </span>
-    </button>
-  </div>
-  <!-- END:: LANG BUTTON -->
+  <div class="menu_btns d-flex align-items-center">
+    <!-- START:: LANG BUTTON -->
+    <div class="lang-button mx-2">
+      <button> 
+        <span> E </span>
+        <span> ع </span>
+      </button>
+    </div>
+    <!-- END:: LANG BUTTON -->
 
+    <!-- START:: MENU BUTTON -->
+    <button id="open_menu" class="menu_btn mx-2">
+      <i class="fas fa-bars"></i>
+    </button>
+    <!-- END:: MENU BUTTON -->
+  </div>
 </nav>
 <!-- END:: LARGE SCREENS NAVBAR -->
+
+<!-- START:: SMALL SCREENS MENU -->
+<div class="small_menu">
+  <div class="btn_box">
+    <button id="colse_menu">
+      <i class="far fa-times-circle"></i>
+    </button>
+  </div>
+
+  <ul class="list-unstyled mb-0">
+    <li class="active"> 
+      <a href="index.php"> Home </a>
+    </li>
+
+    <li> 
+      <a href="DrProfile.php"> Dr.khaled Profile </a>
+    </li>
+
+    <li> 
+      <a href="AllOperations.php"> Operations </a>
+    </li>
+
+    <li> 
+      <a href="ShareWithUs.php"> How To Share With Us </a>
+    </li>
+
+    <li> 
+      <a href="AllBooks.php"> Books </a>
+    </li>
+
+    <li> 
+      <a href="CairoUniversity.php"> Cairo University </a>
+    </li>
+
+    <li> 
+      <a href="AllVideos.php"> Videos Liberary </a>
+    </li>
+
+    <li> 
+      <a href="auth.php"> Login </a>
+    </li>
+
+    <li> 
+      <a href="ContactUs.php"> Contact Us </a>
+    </li>
+  </ul>
+</div>
+<!-- END:: SMALL SCREENS MENU -->
