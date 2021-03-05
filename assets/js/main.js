@@ -1,12 +1,18 @@
 $(document).ready( function() {
   // START:: TOGGLE MENU
   $('#open_menu').on('click', () => {
-    $('.small_menu').css('right', '0'),
+    $('.small_menu').css('display', 'flex');
+    setTimeout(() => {
+      $('.small_menu').css('right', '0');
+    }, 300);
     $('body').css('overflow', 'hidden');
   });
 
   $('#colse_menu').on('click', () => {
-    $('.small_menu').css('right', '-100%'),
+    $('.small_menu').css('right', '-100%');
+    setTimeout(() => {
+      $('.small_menu').css('display', 'none');
+    }, 1000);
     $('body').css('overflow-y', 'auto');
   });
   // END:: TOGGLE MENU
@@ -43,7 +49,7 @@ $(document).ready( function() {
         nav:true
       },
       600:{
-        items:2,
+        items:1,
         nav:false
       },
       1000:{
@@ -71,7 +77,7 @@ $(document).ready( function() {
           nav:true
       },
       600:{
-        items:2,
+        items:1,
         nav:false
       },
       1000:{
