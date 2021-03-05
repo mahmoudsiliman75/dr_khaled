@@ -6,7 +6,7 @@
         <img src="assets/media/logo.png">
       </div>
 
-      <div class="short_cuts col-6 col-md-4"> 
+      <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
           <a href="DrProfile.php"> Dr.Khaled Profile </a>
