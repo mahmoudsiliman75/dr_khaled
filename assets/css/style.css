@@ -2448,6 +2448,107 @@ nav .lang-button button span:nth-child(2) {
   left: 0;
 }
 
+.reviews {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.reviews .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviews .header_wraper h2 {
+  color: #00303f;
+  border-left: 3px solid #d0af85;
+  padding: 8px;
+}
+
+.reviews .review_wraper {
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 15px 2px #888;
+          box-shadow: 0 0 15px 2px #888;
+}
+
+.reviews .review_wraper .review_header img {
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  border: 3px solid #666;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+
+.reviews .review_wraper .review_header span svg {
+  color: #ebdc11;
+}
+
+.reviews .review_wraper .review_body p {
+  margin-top: 15px;
+  color: #666;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.reviews .btn_box {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviews .btn_box a {
+  overflow: hidden;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 2px solid #d0af85;
+  background-color: transparent;
+  color: #d0af85;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 30px;
+}
+
+.reviews .btn_box a::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #d0af85;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.reviews .btn_box a:hover {
+  color: #fff;
+}
+
+.reviews .btn_box a:hover::before {
+  left: 0;
+}
+
 footer {
   background-color: #212121;
 }

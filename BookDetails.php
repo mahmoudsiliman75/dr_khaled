@@ -541,6 +541,108 @@
 <!-- END:: BIOGRAPHY SECTION -->
 
 <!-- START:: REVIEWS SECTION -->
+<div class="reviews">
+	<div class="container-fluid">
+		<div class="header_wraper">
+			<h2> Book Reviews </h2>
+		</div>
+
+		<div class="row mt-3">
+			<div class="col-12 col-md-6 my-2">
+				<div class="review_wraper">
+					<div class="review_header">
+						<img src="assets/media/default.jpg" alt="Reviewer">
+						<span>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star-half-alt fa-lg"></i>
+						</span>
+					</div>
+
+					<div class="review_body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Natus quo praesentium hic et quidem qui provident minus 
+							reprehenderit repellendus velit possimus veritatis, 
+							labore ad laboriosam esse porro, eaque quas non.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 my-2">
+				<div class="review_wraper">
+					<div class="review_header">
+						<img src="assets/media/default.jpg" alt="Reviewer">
+						<span>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star fa-lg"></i>
+						</span>
+					</div>
+
+					<div class="review_body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Natus quo praesentium hic et quidem qui provident minus 
+							reprehenderit repellendus velit possimus veritatis, 
+							labore ad laboriosam esse porro, eaque quas non.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 my-2">
+				<div class="review_wraper">
+					<div class="review_header">
+						<img src="assets/media/default.jpg" alt="Reviewer">
+						<span>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star fa-lg"></i>
+						</span>
+					</div>
+
+					<div class="review_body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Natus quo praesentium hic et quidem qui provident minus 
+							reprehenderit repellendus velit possimus veritatis, 
+							labore ad laboriosam esse porro, eaque quas non.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 my-2">
+				<div class="review_wraper">
+					<div class="review_header">
+						<img src="assets/media/default.jpg" alt="Reviewer">
+						<span>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star fa-lg"></i>
+							<i class="fas fa-star fa-lg"></i>
+						</span>
+					</div>
+
+					<div class="review_body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Natus quo praesentium hic et quidem qui provident minus 
+							reprehenderit repellendus velit possimus veritatis, 
+							labore ad laboriosam esse porro, eaque quas non.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="btn_box">
+			<a href="#"> Read More </a>
+		</div>
+	</div>
+</div>
 <!-- END:: REVIEWS SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
