@@ -167,7 +167,7 @@
 					<p> <span> ISBN-13: </span>  978-1509307951 </p>
 					<p> <span> ISBN-10: </span>  1509307958 </p>
 					<p> <span> Publisher: </span>  Microsoft Press </p>
-					<p> <span> Edition: </span>  1 <sup>st</sup> Edition </p>
+					<p> <span> Edition: </span>  1 st Edition </p>
 					<p> <span> Publicaion Date: </span> October 8, 2018 </p>
 					<p> <span> Language: </span> English </p>
 					<p> <span> File Size: </span> 21800 KB </p>
@@ -183,25 +183,25 @@
 						<h3> Hard Copy Stores </h3>
 					</div>
 					<div class="row justify-content-between justify-content-md-start">
-						<div class="col-5 d-flex py-3">
+						<div class="col-5 d-flex py-2">
 							<div class="img_wraper">
 								<img src="assets/media/store1.jpg" alt="Brand 1">
 							</div>
 						</div>
 
-						<div class="col-5 d-flex py-3">
+						<div class="col-5 d-flex py-2">
 							<div class="img_wraper">
 								<img src="assets/media/store2.jpg" alt="Brand 1">
 							</div>
 						</div>
 
-						<div class="col-5 d-flex py-3">
+						<div class="col-5 d-flex py-2">
 							<div class="img_wraper">
 								<img src="assets/media/store3.jpg" alt="Brand 1">
 							</div>
 						</div>
 
-						<div class="col-5 d-flex py-3">
+						<div class="col-5 d-flex py-2">
 							<div class="img_wraper">
 								<img src="assets/media/store4.jpg" alt="Brand 1">
 							</div>
@@ -213,6 +213,61 @@
 	</div>
 </div>
 <!-- END:: BOOK DEEP DETAILS SECTION -->
+
+<!-- START:: VIDEOS SECTION -->
+<div class="videos-sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Videos </h2>
+    </div>
+
+    <div class="row flex-column align-items-center justify-content-center mt-3">
+      <div id="videos_slider" class="owl-carousel owl-theme col-11">
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+        <div class="item text-center">
+          <div class="iframe_wraper">
+            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5> Video Title </h5>
+        </div>
+
+      </div>
+
+      <div class="btn_box">
+        <a href="AllVideos.php"> More Videos  </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: VIDEOS SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

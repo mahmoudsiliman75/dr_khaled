@@ -769,6 +769,7 @@ nav .lang-button button span:nth-child(2) {
   width: 100%;
   min-height: 250px;
   max-height: 250px;
+  border-radius: 10px;
 }
 
 .videos-sec .owl-carousel .item h5 {
