@@ -58,9 +58,9 @@
     <div class="row justify-content-between">
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <h2 class="card_title text-center mb-4"> 
+          <h1 class="card_title text-center mb-4"> 
             <i class="fas fa-phone-alt fa-4x"></i>
-          </h2>
+          </h1>
 
           <ul class="card_list container list-unstyled">
             <li class="text-center"> 
@@ -84,9 +84,9 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card">
-          <h2 class="card_title text-center mb-4"> 
+          <h1 class="card_title text-center mb-4"> 
             <i class="far fa-envelope fa-4x"></i>
-          </h2>
+          </h1>
 
           <ul class="card_list container list-unstyled">
             <li class="text-center"> 

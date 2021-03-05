@@ -125,7 +125,9 @@
 <script src="assets/js/splide.min.js"></script>
 <!-- END:: INCLUDING SPLIDE SCRIPT FILE -->
 
+<!-- START:: INCLUDING FLEX SLIDER SCRIPT FILE -->
 <script src="assets/js/jquery.flexslider.js"></script>
+<!-- END:: INCLUDING FLEX SLIDER SCRIPT FILE -->
 
 <!-- START:: INCLUDING MAIN SCRIPT FILE -->
 <script src="assets/js/main.js"></script>

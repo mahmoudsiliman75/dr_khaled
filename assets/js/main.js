@@ -84,15 +84,24 @@ $(document).ready( function() {
   // START:: OWL CAROUSEL
 
   // START:: TOGGLE FORMS
-  $('#toggle_forms').on('click', function() {
+  $('#show_register').on('click', function() {
+    $('#login_form_wraper').css('display', 'none');
     $('#login_form_wraper').css('display', 'none');
     $('#signup_form_wraper').css('display', 'block');
   });
+
+  $('#show_reset').on('click', function() {
+    $('#login_form_wraper').css('display', 'none');
+    $('#signup_form_wraper').css('display', 'none');
+    $('#reset_form_wraper').css('display', 'block');
+  });
   // END:: TOGGLE FORMS
 
+  // START:: FLEX SLIDER
   $('.flexslider').flexslider({
     animation: "slide",
     controlNav: "thumbnails"
   });
+  // END:: FLEX SLIDER
 
 });

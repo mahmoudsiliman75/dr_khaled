@@ -293,9 +293,12 @@ nav {
       padding: 25px;
       box-shadow: 0 0 15px 2px #888;
       h3 {
+        display: flex;
         color: $deepBlue;
+        border: none !important;
       }
       p {
+        text-align: start;
         color: $lightGrey;
       }
       .btn_box {
@@ -377,6 +380,7 @@ nav {
       text-align: center;
     }
     p {
+      text-align: start;
       color: $lightGrey;
     }
     .btn_box {
@@ -682,6 +686,7 @@ nav {
       width: 100%;
       color: $deepBlue;
       text-align: start;
+      border: none !important;
     }
     p {
       color: $lightGrey;
@@ -735,6 +740,80 @@ nav {
   }
 }
 // END:: DR OPERATION SECTION STYLES
+
+// START:: OPERATION PAGE STYLES
+.operations {
+  padding-top: $paddingAmount;
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .operation_wraper {
+    .operation_img_wraper {
+      height: auto;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: $borderRadiusAmount;
+      }
+    }
+
+    .operation_text_wraper {
+      h4 {
+        color: $deepBlue;
+        text-align: start;
+      }
+
+      p {
+        font-size: 18px;
+        color: $lightGrey;
+        line-height: 1.6;
+        text-align: justify;
+      }
+
+      .btn_box {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        a {
+          @include btnHoverEffect();
+        }
+      }
+    }
+
+    &:nth-child(odd) {
+      .operation_img_wraper {
+        order: 2;
+      }
+      .operation_text_wraper {
+        order: 1;
+      }
+    }
+
+    @media (max-width: 767px) {
+      &:nth-child(odd) {
+        .operation_img_wraper {
+          order: 1;
+        }
+        .operation_text_wraper {
+          order: 2;
+        }
+      }
+    }
+  }
+
+  .btn_box {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: OPERATION PAGE STYLES
 
 // START:: HOW TO SHARE SECTION STYLES
 .share {
@@ -792,29 +871,6 @@ nav {
   }
 }
 // END:: HOW TO SHARE SECTION STYLES
-
-// START:: CAIRO UNIVERSITY SECTION STYLES
-.cairo_university {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  .cairo_university_img_wraper {
-    img {
-      width: 100%;
-      min-height: 400px;
-      max-height: 400px;
-      border-radius: $borderRadiusAmount;
-    }
-  }
-
-  .cairo_university_info_wraper {
-    padding-top: 20px;
-    font-size: 20px;
-    color: $lightGrey;
-    line-height: 1.6;
-    text-align: justify;
-  }
-}
-// END:: CAIRO UNIVERSITY SECTION STYLES
 
 // START:: ALL BOOKS SECTION STYLES
 .all_books {
@@ -913,288 +969,6 @@ nav {
   }
 }
 // END:: ALL BOOKS SECTION STYLES
-
-// START:: GET IN TOUCH SECTION STYLES
-.get_in_touch {
-  padding-top: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .social {
-    img {
-      min-width: 70px;
-      max-width: 70px;
-      min-height: 70px;
-      max-height: 70px;
-      @include transitioning();
-      &:hover {
-        transform: scale(1.3);
-      }
-    }
-  }
-}
-// END:: GET IN TOUCH SECTION STYLES
-
-// START:: CONTACT INFO SECTION STYLES
-.contact_info {
-  .card {
-    border: none;
-    .card_title {
-      svg {
-        color: $lightCoffee;
-      }
-    }
-    .card_list {
-      li {
-        color: $deepBlue;
-      }
-    }
-  }
-
-  .line_wraper {
-    padding-top: 75px;
-    display: flex;
-    align-items: flex-start;
-    img {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 992px) {
-    .line_wraper {
-      display: none !important;
-    }
-  }
-}
-// END:: CONTACT INFO SECTION STYLES
-
-// START:: MAPS SECTION STYLES
-.maps {
-  .map_info_wraper {
-    h3 {
-      text-align: start;
-      color: $deepBlue;
-    }
-
-    .iframe_waper {
-      iframe {
-        width: 100%;
-        min-height: 300px;
-        max-height: 300px;
-      }
-    }
-
-    .map_text {
-      ul {
-        li {
-          display: flex;
-          justify-content: flex-start;
-          font-size: 18px;
-          margin-bottom: 8px;
-          color: $lightGrey;
-          span {
-            color: $lightCoffee;
-            margin-inline-end: 10px;
-          }
-        }
-      }
-    }
-  }
-}
-// END:: MAPS SECTION STYLES
-
-// START:: ALL VIDEOS PAGE STYLES
-.videos {
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .video_wraper {
-    iframe {
-      width: 100%;
-      min-height: 250px;
-      max-height: 250px;
-    }
-    h4 {
-      color: $deepBlue;
-      text-align: center;
-    }
-  }
-
-  .btn_box {
-    @include flexCenterAlignment();
-    a {
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: ALL VIDEOS PAGE STYLES
-
-// START:: AUTH PAGE STYLES
-.auth_forms_wraper {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  form {
-    position: relative;
-    margin-top: 15px;
-    padding: 0;
-    border-radius: $borderRadiusAmount;
-    overflow: hidden;
-    @include simpleShadow();
-    &.login {
-      max-height: 300px;
-    }
-    &.sign_up {
-      max-height: 500px;
-      svg {
-        position: relative;
-        top: -233px;
-        right: -180px;
-        z-index: -1;
-        &:last-of-type {
-          top: -319px;
-          left: -200px;
-          transform: rotate(30deg);
-        }
-      }
-    }
-    svg {
-      position: relative;
-      top: -233px;
-      right: -180px;
-      z-index: -1;
-    }
-    .form_overlay {
-      padding: 25px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      @include flexCenterAlignment();
-      flex-direction: column;
-      .form-group {
-        width: 100%;
-        input {
-          width: 100%;
-          background-color: transparent;
-          padding: 30px 10px;
-          border-radius: $largeBorderRadiusAmount;
-          @include simpleShadow();
-        }
-      }
-      .btn_box {
-        width: 100%;
-        button {
-          margin-bottom: 15px;
-          width: 100%;
-          @include btnHoverEffect();
-          padding: 10px 10px;
-          @include simpleShadow();
-        }
-        span {
-          color: $deepBlue;
-          font-size: 14px;
-          cursor: pointer;
-          &:hover {
-            text-decoration: underline;
-            color: rgb(49, 94, 146);
-          }
-        }
-      }
-    }
-  }
-}
-// END:: AUTH PAGE STYLES
-
-// START:: OPERATION PAGE STYLES
-.operations {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .operation_wraper {
-    .operation_img_wraper {
-      height: auto;
-      img {
-        width: 100%;
-        height: 100%;
-        border-radius: $borderRadiusAmount;
-      }
-    }
-
-    .operation_text_wraper {
-      h4 {
-        color: $deepBlue;
-        text-align: start;
-      }
-
-      p {
-        font-size: 18px;
-        color: $lightGrey;
-        line-height: 1.6;
-        text-align: justify;
-      }
-
-      .btn_box {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        a {
-          @include btnHoverEffect();
-        }
-      }
-    }
-
-    &:nth-child(odd) {
-      .operation_img_wraper {
-        order: 2;
-      }
-      .operation_text_wraper {
-        order: 1;
-      }
-    }
-
-    @media (max-width: 767px) {
-      &:nth-child(odd) {
-        .operation_img_wraper {
-          order: 1;
-        }
-        .operation_text_wraper {
-          order: 2;
-        }
-      }
-    }
-  }
-
-  .btn_box {
-    @include flexCenterAlignment();
-    a {
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: OPERATION PAGE STYLES
 
 // START:: BOOK DETAILS PAGE STYLES
 .book_info {
@@ -1317,6 +1091,7 @@ nav {
   .deep_imgs {
     padding: 0 $paddingAmount;
     .header_wraper {
+      display: flex;
       h3 {
         @include  mainHeaderStyle();
       }
@@ -1541,6 +1316,8 @@ nav {
     border-radius: $borderRadiusAmount;
     @include simpleShadow();
     .review_header {
+      display: flex;
+      align-items: center;
       img {
         min-width: 100px;
         max-width: 100px;
@@ -1560,6 +1337,7 @@ nav {
 
     .review_body {
       p {
+        text-align: start;
         margin-top: 15px;
         color: $lightGrey;
         font-size: 18px;
@@ -1577,6 +1355,242 @@ nav {
   }
 }
 //  END:: REVIEWS SECTION
+
+// START:: CAIRO UNIVERSITY SECTION STYLES
+.cairo_university {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .cairo_university_img_wraper {
+    img {
+      width: 100%;
+      min-height: 400px;
+      max-height: 400px;
+      border-radius: $borderRadiusAmount;
+    }
+  }
+
+  .cairo_university_info_wraper {
+    padding-top: 20px;
+    font-size: 20px;
+    color: $lightGrey;
+    line-height: 1.6;
+    text-align: justify;
+  }
+}
+// END:: CAIRO UNIVERSITY SECTION STYLES
+
+// START:: ALL VIDEOS PAGE STYLES
+.videos {
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .video_wraper {
+    iframe {
+      width: 100%;
+      min-height: 250px;
+      max-height: 250px;
+      border-radius: $borderRadiusAmount;
+    }
+    h4 {
+      color: $deepBlue;
+      text-align: center;
+    }
+  }
+
+  .btn_box {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: ALL VIDEOS PAGE STYLES
+
+// START:: AUTH PAGE STYLES
+.auth_forms_wraper {
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  form {
+    position: relative;
+    margin-top: 15px;
+    padding: 0;
+    border-radius: $borderRadiusAmount;
+    overflow: hidden;
+    @include simpleShadow();
+    &.login {
+      max-height: 350px;
+    }
+    &.sign_up {
+      max-height: 500px;
+      svg {
+        position: relative;
+        top: -233px;
+        right: -180px;
+        z-index: -1;
+        &:last-of-type {
+          top: -319px;
+          left: -200px;
+          transform: rotate(30deg);
+        }
+      }
+    }
+    &.reset {
+      max-height: 450px;
+    }
+    svg {
+      position: relative;
+      top: -233px;
+      right: -180px;
+      z-index: -1;
+    }
+    .form_overlay {
+      padding: 25px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      @include flexCenterAlignment();
+      flex-direction: column;
+      .form-group {
+        width: 100%;
+        input {
+          width: 100%;
+          background-color: transparent;
+          padding: 30px 10px;
+          border-radius: $largeBorderRadiusAmount;
+          @include simpleShadow();
+        }
+      }
+      .btn_box {
+        width: 100%;
+        button {
+          margin-bottom: 15px;
+          width: 100%;
+          @include btnHoverEffect();
+          padding: 10px 10px;
+          @include simpleShadow();
+        }
+        span {
+          color: $deepBlue;
+          font-size: 14px;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+            color: rgb(49, 94, 146);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: AUTH PAGE STYLES
+
+// START:: GET IN TOUCH SECTION STYLES
+.get_in_touch {
+  padding-top: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .social {
+    img {
+      min-width: 70px;
+      max-width: 70px;
+      min-height: 70px;
+      max-height: 70px;
+      @include transitioning();
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+}
+// END:: GET IN TOUCH SECTION STYLES
+
+// START:: CONTACT INFO SECTION STYLES
+.contact_info {
+  .card {
+    border: none;
+    .card_title {
+      svg {
+        color: $lightCoffee;
+      }
+    }
+    .card_list {
+      li {
+        color: $deepBlue;
+      }
+    }
+  }
+
+  .line_wraper {
+    padding-top: 75px;
+    display: flex;
+    align-items: flex-start;
+    img {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .line_wraper {
+      display: none !important;
+    }
+  }
+}
+// END:: CONTACT INFO SECTION STYLES
+
+// START:: MAPS SECTION STYLES
+.maps {
+  .map_info_wraper {
+    h3 {
+      text-align: start;
+      color: $deepBlue;
+      border: none !important;
+    }
+
+    .iframe_waper {
+      iframe {
+        width: 100%;
+        min-height: 300px;
+        max-height: 300px;
+      }
+    }
+
+    .map_text {
+      ul {
+        padding: 0;
+        li {
+          display: flex;
+          justify-content: flex-start;
+          font-size: 18px;
+          margin-bottom: 8px;
+          color: $lightGrey;
+          span {
+            color: $lightCoffee;
+            margin-inline-end: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: MAPS SECTION STYLES
 
 // START:: FOOTER STYLES
 footer {
