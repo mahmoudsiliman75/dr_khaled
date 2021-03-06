@@ -1097,12 +1097,31 @@ nav {
         @include  mainHeaderStyle();
       }
     }
-    .img_wraper {
-      img {
+
+    .stores_wraper {
+      .img_wraper {
+        display: inline-block;
+        margin: 8px;
+        img {
         min-width: 200px;
         max-width: 200px;
         min-height: 200px;
         max-height: 200px;
+        }
+      }
+    }
+
+    @media ( max-width: 767px ) {
+      .stores_wraper {
+        text-align: center;
+        .img_wraper {
+          img {
+          min-width: 250px;
+          max-width: 250px;
+          min-height: 250px;
+          max-height: 250px;
+          }
+        }
       }
     }
   }

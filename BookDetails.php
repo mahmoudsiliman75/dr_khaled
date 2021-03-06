@@ -50,7 +50,7 @@
 				<div class="book_text_wraper">
 					<div class="tabs_wraper">
 						<div class="row">
-							<ul class="col-5 nav nav-pills mb-3" id="pills-tab" role="tablist">
+							<ul class="col-6 col-md-5 nav nav-pills mb-3" id="pills-tab" role="tablist">
 								<li class="nav-item" role="presentation">
 									<a class="nav-link active" id="pills-pdf-tab" data-toggle="pill" href="#pills-pdf" role="tab" aria-controls="pills-pdf" aria-selected="true">PDF</a>
 								</li>
@@ -60,7 +60,7 @@
 								</li>
 							</ul>
 
-							<div class="col-7 price">
+							<div class="col-6 col-md-7 price">
 								<span class="old_price"> 300 EGP </span>
 								<span class="new_price"> 200 EGP </span>
 							</div>
@@ -97,13 +97,13 @@
 
 					<div class="actions_wraper">
 						<div class="row justify-content-between">
-							<div class="col-4 d-flex justify-content-start">
+							<div class="col-5 col-md-4 d-flex justify-content-start">
 								<a href="#"> 
 									look <span> Inside </span> 
 									<i class="fas fa-search"></i>
 								</a>
 							</div>
-							<div class="col-4 d-flex justify-content-end">
+							<div class="col-5 col-md-4 d-flex justify-content-end">
 								<button> Add To Cart <i class="fas fa-cart-plus"></i> </button>
 							</div>
 						</div>
@@ -158,7 +158,7 @@
 <div class="deep_details">
 	<div class="container_fluid">
 		<div class="row justify-content-between">
-			<div class="col-12 col-md-5">
+			<div class="col-12 col-md-4">
 				<div class="deep_text">
 					<div class="header_wraper mb-3">
 						<h3> Book Details </h3>
@@ -177,36 +177,38 @@
 				</div>
 			</div>
 
-			<div class="col-12 col-md-5">
+			<div class="col-12 col-md-8">
 				<div class="deep_imgs">
 					<div class="header_wraper">
 						<h3> Hard Copy Stores </h3>
 					</div>
-					<div class="row justify-content-between justify-content-md-start">
-						<div class="col-5 d-flex py-2">
-							<div class="img_wraper">
-								<img src="assets/media/store1.jpg" alt="Brand 1">
-							</div>
-						</div>
 
-						<div class="col-5 d-flex py-2">
+					<div class="stores_wraper">
 							<div class="img_wraper">
-								<img src="assets/media/store2.jpg" alt="Brand 1">
+								<a href="#">
+									<img src="assets/media/store1.jpg" alt="Brand 1">
+								</a>
 							</div>
-						</div>
 
-						<div class="col-5 d-flex py-2">
 							<div class="img_wraper">
-								<img src="assets/media/store3.jpg" alt="Brand 1">
+								<a href="#">
+									<img src="assets/media/store2.jpg" alt="Brand 1">
+								</a>
 							</div>
-						</div>
 
-						<div class="col-5 d-flex py-2">
 							<div class="img_wraper">
-								<img src="assets/media/store4.jpg" alt="Brand 1">
+								<a href="#">
+									<img src="assets/media/store3.jpg" alt="Brand 1">
+								</a>
 							</div>
-						</div>
+
+							<div class="img_wraper">
+								<a href="#">
+									<img src="assets/media/store4.jpg" alt="Brand 1">
+								</a>
+							</div>
 					</div>
+
 				</div>
 			</div>
 		</div>

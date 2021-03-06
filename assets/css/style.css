@@ -1870,11 +1870,28 @@ nav .menu_btn svg {
   padding: 8px;
 }
 
-.deep_details .deep_imgs .img_wraper img {
+.deep_details .deep_imgs .stores_wraper .img_wraper {
+  display: inline-block;
+  margin: 8px;
+}
+
+.deep_details .deep_imgs .stores_wraper .img_wraper img {
   min-width: 200px;
   max-width: 200px;
   min-height: 200px;
   max-height: 200px;
+}
+
+@media (max-width: 767px) {
+  .deep_details .deep_imgs .stores_wraper {
+    text-align: center;
+  }
+  .deep_details .deep_imgs .stores_wraper .img_wraper img {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 250px;
+  }
 }
 
 .related_books {
