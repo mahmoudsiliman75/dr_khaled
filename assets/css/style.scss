@@ -1457,8 +1457,8 @@ nav {
       min-height: 350px;
     }
     &.sign_up {
-      max-height: 500px;
-      min-height: 500px;
+      max-height: 550px;
+      min-height: 550px;
       svg {
         position: relative;
         top: -233px;
@@ -1468,6 +1468,21 @@ nav {
           top: -319px;
           left: -200px;
           transform: rotate(30deg);
+        }
+      }
+      p {
+        color: $deepBlue;
+      }
+      ul {
+        li {
+          display: inline-block;
+          margin: 0;
+          img {
+            min-width: 50px; 
+            max-width: 50px; 
+            min-height: 50px; 
+            max-height: 50px; 
+          }
         }
       }
     }

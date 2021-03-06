@@ -93,6 +93,32 @@
             <div class="btn_box">
               <button> Sign Up </button>
             </div>
+
+            <div class="form-group d-flex flex-column justify-content-center align-items-center">
+              <p> Or Enter With </p>
+              <ul class="list-unstyled">
+                <li> 
+                  <a href="#">
+                    <img src="assets/media/icons/facebook.png">
+                  </a> 
+                </li>
+                <li> 
+                  <a href="#">
+                    <img src="assets/media/icons/instagram.png">
+                  </a> 
+                </li>
+                <li> 
+                  <a href="#">
+                    <img src="assets/media/icons/youtube.png">
+                  </a> 
+                </li>
+                <li> 
+                  <a href="#">
+                    <img src="assets/media/icons/twitter.png">
+                  </a> 
+                </li>
+              </ul>
+            </div>
           </div>
         </form>
       </div>

@@ -2533,8 +2533,8 @@ nav .menu_btn svg {
 }
 
 .auth_forms_wraper form.sign_up {
-  max-height: 500px;
-  min-height: 500px;
+  max-height: 550px;
+  min-height: 550px;
 }
 
 .auth_forms_wraper form.sign_up svg {
@@ -2549,6 +2549,22 @@ nav .menu_btn svg {
   left: -200px;
   -webkit-transform: rotate(30deg);
           transform: rotate(30deg);
+}
+
+.auth_forms_wraper form.sign_up p {
+  color: #00303f;
+}
+
+.auth_forms_wraper form.sign_up ul li {
+  display: inline-block;
+  margin: 0;
+}
+
+.auth_forms_wraper form.sign_up ul li img {
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
 }
 
 .auth_forms_wraper form.reset {
