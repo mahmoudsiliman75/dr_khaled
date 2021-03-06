@@ -24,7 +24,7 @@
     </div>
 
     <div class="row mt-3 justify-content-center">
-      <div class="col-6 col-md-2 mb-3">
+      <div class="col-6 col-md-3 mb-3">
         <div class="filter_wraper">
           <h6 class="mb-3"> Book Category </h6>
           <form action="" class="row m-0 px-3">
@@ -71,10 +71,10 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-10">
+      <div class="col-12 col-md-9">
         <div class="row">
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -84,7 +84,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -115,7 +115,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -125,7 +125,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -156,7 +156,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -166,7 +166,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -197,7 +197,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -207,7 +207,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -238,7 +238,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -248,7 +248,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -279,7 +279,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -289,7 +289,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -320,7 +320,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -330,7 +330,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -361,7 +361,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -371,7 +371,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -402,7 +402,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -412,7 +412,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -443,7 +443,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -453,7 +453,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -484,7 +484,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -494,7 +494,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -525,7 +525,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-3 book_details mb-4">
+          <div class="col-6 col-md-3 book_details mb-4">
             <div class="card">
               <div class="card_img_wraper">
                 <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -535,7 +535,7 @@
               </div>
 
               <div class="card-body">
-                <h5 class="card-title">Book Title</h5>
+                <h5 class="card-title">The Four Winds: A Novel</h5>
                 <ul class="list-unstyled">
                   <li> 
                     <span> $50.00 </span> 
@@ -565,6 +565,7 @@
 
             </div>
           </div>
+
 
           <div class="col-12 btn_box">
             <button> Load More </button>

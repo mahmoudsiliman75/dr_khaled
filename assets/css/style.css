@@ -611,15 +611,18 @@ nav .menu_btn svg {
   border: none;
 }
 
+.books_sec .book_details .card .card_img_wraper {
+  padding: 0 25px;
+}
+
 .books_sec .book_details .card .card_img_wraper img {
-  min-height: 320px;
-  max-height: 320px;
-  border-radius: 20px;
+  min-height: 280px;
+  max-height: 280px;
 }
 
 .books_sec .book_details .card .card_img_wraper .badge {
   position: absolute;
-  right: -8px;
+  right: 12px;
   top: 20px;
   background-color: #d0af85;
   color: #00303f;
@@ -628,19 +631,17 @@ nav .menu_btn svg {
 
 .books_sec .book_details .card .card-body {
   padding-top: 5px;
+  min-height: 230px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .books_sec .book_details .card .card-body h5 {
@@ -1531,15 +1532,18 @@ nav .menu_btn svg {
   border: none;
 }
 
+.all_books .book_details .card .card_img_wraper {
+  padding: 0 20px;
+}
+
 .all_books .book_details .card .card_img_wraper img {
-  min-height: 320px;
-  max-height: 320px;
-  border-radius: 20px;
+  min-height: 280px;
+  max-height: 280px;
 }
 
 .all_books .book_details .card .card_img_wraper .badge {
   position: absolute;
-  right: -8px;
+  right: 12px;
   top: 20px;
   background-color: #d0af85;
   color: #00303f;
@@ -1548,19 +1552,17 @@ nav .menu_btn svg {
 
 .all_books .book_details .card .card-body {
   padding-top: 5px;
+  min-height: 230px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .all_books .book_details .card .card-body h5 {
@@ -1908,15 +1910,18 @@ nav .menu_btn svg {
   border: none;
 }
 
+.related_books .owl-carousel .item .card .card_img_wraper {
+  padding: 0 20px;
+}
+
 .related_books .owl-carousel .item .card .card_img_wraper img {
-  min-height: 320px;
-  max-height: 320px;
-  border-radius: 20px;
+  min-height: 300px;
+  max-height: 300px;
 }
 
 .related_books .owl-carousel .item .card .card_img_wraper .badge {
   position: absolute;
-  right: 0;
+  right: 10px;
   top: 20px;
   background-color: #d0af85;
   color: #00303f;

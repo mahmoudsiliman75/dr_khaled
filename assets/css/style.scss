@@ -395,14 +395,14 @@ nav {
       position: relative;
       border: none;
       .card_img_wraper {
+        padding: 0 25px;
         img {
-          min-height: 320px;
-          max-height: 320px;
-          border-radius: $midBorderRadiusAmount;
+          min-height: 280px;
+          max-height: 280px;
         }
         .badge {
           position: absolute;
-          right: -8px;
+          right: 12px;
           top: 20px;
           background-color: $lightCoffee;
           color: $deepBlue;
@@ -412,8 +412,10 @@ nav {
 
       .card-body {
         padding-top: 5px;
-        @include flexCenterAlignment();
+        min-height: 230px;
+        display: flex;
         flex-direction: column;
+        justify-content: space-between;
         h5 {
           color: $deepBlue;
         }
@@ -900,14 +902,14 @@ nav {
       position: relative;
       border: none;
       .card_img_wraper {
+        padding: 0 20px;
         img {
-          min-height: 320px;
-          max-height: 320px;
-          border-radius: $midBorderRadiusAmount;
+          min-height: 280px;
+          max-height: 280px;
         }
         .badge {
           position: absolute;
-          right: -8px;
+          right: 12px;
           top: 20px;
           background-color: $lightCoffee;
           color: $deepBlue;
@@ -917,8 +919,10 @@ nav {
 
       .card-body {
         padding-top: 5px;
-        @include flexCenterAlignment();
+        min-height: 230px;
+        display: flex;
         flex-direction: column;
+        justify-content: space-between;
         h5 {
           color: $deepBlue;
         }
@@ -1125,14 +1129,14 @@ nav {
         position: relative;
         border: none;
         .card_img_wraper {
+          padding: 0 20px;
           img {
-            min-height: 320px;
-            max-height: 320px;
-            border-radius: $midBorderRadiusAmount;
+            min-height: 300px;
+            max-height: 300px;
           }
           .badge {
             position: absolute;
-            right: 0;
+            right: 10px;
             top: 20px;
             background-color: $lightCoffee;
             color: $deepBlue;
