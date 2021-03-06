@@ -23,7 +23,7 @@
       <h2> Dr.Khaled Operations </h2>
     </div>
 
-    <div class="row operation_wraper mt-3">
+    <div id="operation_1" class="row operation_wraper mt-3">
       <div class="col-12 col-md-6 operation_img_wraper my-2">
         <img src="./assets/media/pic1.jpg">
       </div>
@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    <div class="row operation_wraper mt-3">
+    <div id="operation_2" class="row operation_wraper mt-3">
       <div class="col-12 col-md-6 operation_img_wraper my-2">
         <img src="./assets/media/pic15.jpg">
       </div>
@@ -69,7 +69,7 @@
       </div>
     </div>
 
-    <div class="row operation_wraper mt-3">
+    <div id="operation_3" class="row operation_wraper mt-3">
       <div class="col-12 col-md-6 operation_img_wraper my-2">
         <img src="./assets/media/pic5.jpg">
       </div>
@@ -92,7 +92,7 @@
       </div>
     </div>
 
-    <div class="row operation_wraper mt-3">
+    <div id="operation_4" class="row operation_wraper mt-3">
       <div class="col-12 col-md-6 operation_img_wraper my-2">
         <img src="./assets/media/pic7.jpg">
       </div>

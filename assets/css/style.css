@@ -1149,14 +1149,18 @@ nav .menu_btn svg {
   padding: 8px;
 }
 
-.dr_operation .operation_img_wraper img {
+.dr_operation a {
+  text-decoration: none;
+}
+
+.dr_operation a .operation_img_wraper img {
   width: 100%;
   min-height: 250px;
   max-height: 250px;
   border-radius: 10px;
 }
 
-.dr_operation .operation_img_wraper h5 {
+.dr_operation a .operation_img_wraper h5 {
   color: #00303f;
 }
 

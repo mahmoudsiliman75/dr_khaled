@@ -67,24 +67,30 @@
 
     <div class="row justify-content-center mt-3">
       <div class="col-12 col-md-4">
-        <div class="operation_img_wraper">
-          <img src="./assets/media/pic12.jpg" alt="Operation Image"> 
-          <h5 class="text-center my-3"> Operation Name </h5>
-        </div>
+        <a href="Alloperations.php#operation_2">
+          <div class="operation_img_wraper">
+            <img src="./assets/media/pic15.jpg" alt="Operation Image"> 
+            <h5 class="text-center my-3"> Operation Name </h5>
+          </div>
+        </a>
       </div>
 
       <div class="col-12 col-md-4">
-        <div class="operation_img_wraper">
-          <img src="./assets/media/pic12.jpg" alt="Operation Image"> 
-          <h5 class="text-center my-3"> Operation Name </h5>
-        </div>
+        <a href="Alloperations.php#operation_3">
+          <div class="operation_img_wraper">
+            <img src="./assets/media/pic5.jpg" alt="Operation Image"> 
+            <h5 class="text-center my-3"> Operation Name </h5>
+          </div>
+        </a>
       </div>
 
       <div class="col-12 col-md-4">
-        <div class="operation_img_wraper">
-          <img src="./assets/media/pic12.jpg" alt="Operation Image"> 
-          <h5 class="text-center my-3"> Operation Name </h5>
-        </div>
+        <a href="Alloperations.php#operation_4">
+          <div class="operation_img_wraper">
+            <img src="./assets/media/pic7.jpg" alt="Operation Image"> 
+            <h5 class="text-center my-3"> Operation Name </h5>
+          </div>
+        </a>
       </div>
 
       <div class="btn_box my-2">

@@ -718,16 +718,19 @@ nav {
       @include mainHeaderStyle();
     }
   }
-  
-  .operation_img_wraper {
-    img {
-      width: 100%;
-      min-height: 250px;
-      max-height: 250px;
-      border-radius: $borderRadiusAmount;
-    }
-    h5 {
-      color: $deepBlue;
+
+  a {
+    text-decoration: none;
+    .operation_img_wraper {
+      img {
+        width: 100%;
+        min-height: 250px;
+        max-height: 250px;
+        border-radius: $borderRadiusAmount;
+      }
+      h5 {
+        color: $deepBlue;
+      }
     }
   }
 
