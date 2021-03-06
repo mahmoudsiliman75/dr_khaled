@@ -50,7 +50,7 @@
 				<div class="book_text_wraper">
 					<div class="tabs_wraper">
 						<div class="row">
-							<ul class="col-6 col-md-5 nav nav-pills mb-3" id="pills-tab" role="tablist">
+							<ul class="col-7 col-md-5 nav nav-pills mb-3" id="pills-tab" role="tablist">
 								<li class="nav-item" role="presentation">
 									<a class="nav-link active" id="pills-pdf-tab" data-toggle="pill" href="#pills-pdf" role="tab" aria-controls="pills-pdf" aria-selected="true">PDF</a>
 								</li>
@@ -60,7 +60,7 @@
 								</li>
 							</ul>
 
-							<div class="col-6 col-md-7 price">
+							<div class="col-5 col-md-7 price">
 								<span class="old_price"> 300 EGP </span>
 								<span class="new_price"> 200 EGP </span>
 							</div>
