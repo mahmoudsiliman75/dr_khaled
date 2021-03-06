@@ -63,7 +63,7 @@ body {
   }
   .section_svg {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -180,13 +180,12 @@ nav {
   position: absolute;
   top: 0;
   right: -100%;
-  width: 100%;
+  width: 75%;
   height: 100vh;
   z-index: 999;
   background-color: $white;
   transition: all 0.6s ease-in-out;
-  // display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   padding: $paddingAmount;
@@ -209,6 +208,7 @@ nav {
 
   ul {
     @include flexCenterAlignment();
+    align-items: flex-start;
     flex-direction: column;
     li {
       @include menuHoverEffect();
@@ -1436,6 +1436,7 @@ nav {
 
 // START:: AUTH PAGE STYLES
 .auth_forms_wraper {
+  padding-top: $paddingAmount;
   padding-bottom: $paddingAmount;
   .header_wraper {
     @include flexCenterAlignment();
@@ -1453,9 +1454,11 @@ nav {
     @include simpleShadow();
     &.login {
       max-height: 350px;
+      min-height: 350px;
     }
     &.sign_up {
       max-height: 500px;
+      min-height: 500px;
       svg {
         position: relative;
         top: -233px;
@@ -1469,7 +1472,8 @@ nav {
       }
     }
     &.reset {
-      max-height: 450px;
+      max-height: 220px;
+      min-height: 220px;
     }
     svg {
       position: relative;

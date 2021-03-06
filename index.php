@@ -136,7 +136,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3 book_details mb-4">
+      <div class="col-12 col-sm-6 col-md-3 book_details mb-4">
         <div class="card">
           <div class="card_img_wraper">
             <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -177,7 +177,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3 book_details mb-4">
+      <div class="col-12 col-sm-6 col-md-3 book_details mb-4">
         <div class="card">
           <div class="card_img_wraper">
             <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -218,7 +218,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3 book_details mb-4">
+      <div class="col-12 col-sm-6 col-md-3 book_details mb-4">
         <div class="card">
           <div class="card_img_wraper">
             <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -259,7 +259,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3 book_details mb-4">
+      <div class="col-12 col-sm-6 col-md-3 book_details mb-4">
         <div class="card">
           <div class="card_img_wraper">
             <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -300,7 +300,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3 book_details mb-4">
+      <div class="col-12 col-sm-6 col-md-3 book_details mb-4">
         <div class="card">
           <div class="card_img_wraper">
             <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -341,7 +341,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3 book_details mb-4">
+      <div class="col-12 col-sm-6 col-md-3 book_details mb-4">
         <div class="card">
           <div class="card_img_wraper">
             <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">
@@ -382,7 +382,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3 book_details mb-4">
+      <div class="col-12 col-sm-6 col-md-3 book_details mb-4">
         <div class="card">
           <div class="card_img_wraper">
             <img src="assets/media/book_cover.jpg" class="card-img-top" alt="...">

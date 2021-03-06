@@ -21,7 +21,7 @@
   <div class="container">
     <div class="row justify-content-center">
 
-      <div id="login_form_wraper" class="col-10 col-md-6">
+      <div id="login_form_wraper" class="col-11 col-md-6">
         <div class="header_wraper">
           <h2> Login </h2>
         </div>
@@ -59,7 +59,7 @@
         </form>
       </div>
 
-      <div id="signup_form_wraper" class="col-10 col-md-6" style="display: none;">
+      <div id="signup_form_wraper" class="col-11 col-md-6" style="display: none;">
         <div class="header_wraper">
           <h2> Registration </h2>
         </div>
@@ -97,7 +97,7 @@
         </form>
       </div>
 
-      <div id="reset_form_wraper" class="col-10 col-md-6" style="display: none;">
+      <div id="reset_form_wraper" class="col-11 col-md-6" style="display: none;">
         <div class="header_wraper">
           <h2> Reset Password </h2>
         </div>
@@ -109,19 +109,11 @@
 
           <div class="form_overlay">
             <div class="form-group">
-              <input type="password" class="form-control" placeholder="Old Password">
-            </div>
-
-            <div class="form-group">
-              <input type="password" class="form-control" placeholder="New Password">
-            </div>
-
-            <div class="form-group">
-              <input type="password" class="form-control" placeholder="Confirm New Password">
+              <input type="mail" class="form-control" placeholder="Enter An Email">
             </div>
 
             <div class="btn_box">
-              <button> Reset Password </button>
+              <button> send confirmation </button>
             </div>
           </div>
         </form>
