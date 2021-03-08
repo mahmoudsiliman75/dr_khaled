@@ -83,6 +83,10 @@
       </li>
 
       <li> 
+        <a href="UserProfile.php"> Profile </a>
+      </li>
+
+      <li> 
         <a href="ContactUs.php"> Contact Us </a>
       </li>
     </ul>
