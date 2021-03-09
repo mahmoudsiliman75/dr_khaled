@@ -15,8 +15,8 @@
           <tr>
             <th scope="col">#</th>
             <th scope="col"> Book </th>
-            <th scope="col"> price </th>
             <th scope="col"> Amount </th>
+            <th scope="col"> price </th>
             <th scope="col"> Action </th>
           </tr>
         </thead>
