@@ -102,7 +102,7 @@ body {
 
 // START:: LARGE SCREENS NAVBAR STYLES
 nav {
-  padding: 5px 20px;
+  padding: 5px 10px;
   border-bottom: 2px solid $lightCoffee;
 
   // START:: NAV LOGO STYLE
@@ -127,6 +127,23 @@ nav {
     }
   }
   // END:: NAV LINKS STYLE
+
+  // START:: CART BUTTON STYLES
+  .cart_btn {
+    a {
+      text-decoration: none;
+      position: relative;
+      span {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+      }
+      svg {
+        color: $deepBlue;
+      }
+    }
+  }
+  // END:: CART BUTTON STYLES
 
   // START:: LANGUAGE BTN STYLE
   .lang-button {
@@ -1434,8 +1451,6 @@ nav {
 }
 // END:: ALL VIDEOS PAGE STYLES
 
-
-
 // START:: AUTH PAGE STYLES
 .auth_forms_wraper {
   padding-top: $paddingAmount;
@@ -1677,7 +1692,7 @@ nav {
   border-left: 2px solid $lightCoffee;
   background-color: #ffe71f14;
   height: 100%;
-  min-height: 53vh;
+  min-height: 80vh;
   ul {
     padding: 0;
     display: flex;
@@ -1693,6 +1708,9 @@ nav {
         svg {
           color: $lightCoffee;
         }
+      }
+      button {
+        color: $lightGrey;
       }
     }
   }

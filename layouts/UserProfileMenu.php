@@ -20,6 +20,13 @@
         <i class="fas fa-cogs"></i>
         <a href="EditUserInfo.php"> Edit Your Info </a>
       </li>
+
+      <li> 
+        <button class="btn p-0"> 
+          <i class="fas fa-sign-out-alt"></i>
+          <span> Sign Out </span>
+        </button>
+      </li>
     </ul>
   </div>
 </div>

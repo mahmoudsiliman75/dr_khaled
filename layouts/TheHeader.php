@@ -94,6 +94,15 @@
   <!-- START:: NAV LINKS -->
 
   <div class="menu_btns d-flex align-items-center">
+    <!-- START:: CART BUTTON -->
+    <div class="cart_btn">
+      <a href="UserCart.php">
+        <span class="badge badge-pill badge-danger">2</span>
+        <i class="fas fa-shopping-cart fa-lg"></i>
+      </a>
+    </div>
+    <!-- END:: CART BUTTON -->
+
     <!-- START:: LANG BUTTON -->
     <div class="lang-button mx-2">
       <button> 
