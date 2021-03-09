@@ -79,6 +79,14 @@
             </div>
 
             <div class="form-group">
+              <input type="tele" class="form-control" placeholder="Phone Number">
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Address">
+            </div>
+
+            <div class="form-group">
               <input type="email" class="form-control" placeholder="Email">
             </div>
 

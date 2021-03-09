@@ -70,8 +70,12 @@
         </tbody>
       </table>
 
-      <div class="caption_wraer">
+      <div class="caption_wraer d-flex justify-content-around">
         <h5> <span> Total Price: </span> 1050 EGP </h5>
+        <button class="btn btn-success"> 
+          <i class="fab fa-cc-visa fa-lg"></i>
+          <span>Check Out</span> 
+        </button>
       </div>
 
     </div>
