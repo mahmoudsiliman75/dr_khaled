@@ -35,17 +35,21 @@
   <div class="container-fluid">
     <div class="row justify-content-center p-2">
       <div class="col-12 col-md-6 my-2 m-md-0 about_img_box">
-        <img src="assets/media/pic9.jpg" alt="About Operations">
+        <a href="#">
+          <img src="assets/media/pic9.jpg" alt="About Operations">
+        </a>
       </div>
 
       <div class="col-12 col-md-6 my-2 m-md-0 about_img_box">
-        <img src="assets/media/pic8.jpg" alt="About Books">
+        <a href="#">
+          <img src="assets/media/pic8.jpg" alt="About Books">
+        </a>
       </div>
 
       <div class="col-12 col-md-11 mt-4">
         <div class="about_card row">
           <div class="col-12 col-md-6 about_card_img">
-            <img src="assets/media/pic5.jpg" alt="About ">
+            <img src="assets/media/pic5.jpg" alt="About">
           </div>
 
           <div class="col-12 col-md-6 about_card_info">

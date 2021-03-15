@@ -164,10 +164,6 @@
     </li>
 
     <li> 
-      <a href="auth.php"> Login </a>
-    </li>
-
-    <li> 
       <a href="ContactUs.php"> Contact Us </a>
     </li>
   </ul>
