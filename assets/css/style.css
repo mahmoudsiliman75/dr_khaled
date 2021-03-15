@@ -579,6 +579,9 @@ nav .menu_btn svg {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  background-color: #fff;
+  position: relative;
+  top: 55px;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 15px 2px #888;
           box-shadow: 0 0 15px 2px #888;
@@ -641,6 +644,57 @@ nav .menu_btn svg {
 
 .books_sec .books_panel .btn_box a:hover::before {
   left: 0;
+}
+
+.books_sec .books_panel .dot {
+  position: absolute;
+  top: -67px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #00303f;
+  border-radius: 50%;
+}
+
+.books_sec .books_panel::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  display: block;
+  width: 150px;
+  height: 3px;
+  background-color: #00303f;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  z-index: -1;
+}
+
+.books_sec .books_panel::after {
+  content: "";
+  position: absolute;
+  top: -25px;
+  right: 0;
+  display: block;
+  width: 150px;
+  height: 3px;
+  background-color: #00303f;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  z-index: -1;
+}
+
+@media (max-width: 1199px) {
+  .books_sec .books_panel {
+    top: 0;
+  }
+  .books_sec .books_panel::before, .books_sec .books_panel::after,
+  .books_sec .books_panel .dot {
+    background-color: transparent;
+  }
 }
 
 .books_sec .book_details .card {

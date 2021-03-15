@@ -137,6 +137,7 @@
     <div class="row justify-content-center">
 
       <div class="col-10 col-md-3 books_panel mb-4">
+        <span class="dot"></span>
         <h5> Today Deal In books </h5>
         <p class="my-3"> 
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. 

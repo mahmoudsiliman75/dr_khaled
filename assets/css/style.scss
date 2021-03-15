@@ -404,6 +404,9 @@ nav {
   .books_panel {
     padding: 20px;
     height: fit-content;
+    background-color: $white;
+    position: relative;
+    top: 55px;
     border-radius: $borderRadiusAmount;
     @include simpleShadow();
     h5 {
@@ -419,6 +422,52 @@ nav {
       a {
         overflow: hidden;
         @include btnHoverEffect();
+      }
+    }
+    .dot {
+      position: absolute;
+      top: -67px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      width: 15px;
+      height: 15px;
+      background-color: $deepBlue;
+      border-radius: 50%;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: -25px;
+      left: 0;
+      display: block;
+      width: 150px;
+      height: 3px;
+      background-color: $deepBlue;
+      transform: rotate(-30deg);
+      z-index: -1;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: -25px;
+      right: 0;
+      display: block;
+      width: 150px;
+      height: 3px;
+      background-color: $deepBlue;
+      transform: rotate(30deg);
+      z-index: -1;
+    }
+  }
+
+  @media( max-width: 1199px ) {
+    .books_panel {
+      top: 0;
+      &::before,
+      &::after,
+      .dot {
+        background-color: transparent;
       }
     }
   }
