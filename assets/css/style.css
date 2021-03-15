@@ -978,6 +978,12 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
+@media (max-width: 767px) {
+  .testemonials .owl-carousel .owl-nav {
+    top: 40%;
+  }
+}
+
 .videos-sec {
   padding-top: 30px;
   padding-bottom: 30px;
