@@ -21,11 +21,11 @@
   <div class="container">
     <div class="row align-items-center">
 
-      <div class="about_img col-12 col-md-6">
+      <div class="about_img col-12 col-md-5">
         <img class="img-fluid" src="assets/media/pic6.jpg" alt="About Page Img">
       </div>
 
-      <div class="about_text col-12 col-md-6">
+      <div class="about_text col-12 col-md-7">
         <h3 class="mt-3"> Dr.Khaled Saleh </h3>
         <p class="my-3"> 
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -105,7 +105,7 @@
 <div class="videos-sec">
   <div class="container">
     <div class="header_wraper">
-      <h2> Videos </h2>
+      <h2> Operations Videos </h2>
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3">
