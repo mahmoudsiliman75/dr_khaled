@@ -12,6 +12,10 @@ body::-webkit-scrollbar-thumb {
   background-color: #00303f;
 }
 
+.flexslider {
+  margin-bottom: 15px !important;
+}
+
 .flexslider .flex-viewport {
   max-height: 400px !important;
 }
@@ -22,6 +26,13 @@ body::-webkit-scrollbar-thumb {
   min-height: 400px;
   max-height: 400px;
   width: 100%;
+}
+
+.flexslider .flex-viewport .slides .min_img {
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 100px;
+  max-height: 100px;
 }
 
 .flexslider .flex-control-thumbs {
@@ -1634,17 +1645,27 @@ nav .menu_btn svg {
 }
 
 .all_books .book_details .card .card_img_wraper {
-  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .all_books .book_details .card .card_img_wraper img {
-  min-height: 280px;
-  max-height: 280px;
+  min-width: 145px;
+  max-width: 145px;
+  min-height: 195px;
+  max-height: 195px;
 }
 
 .all_books .book_details .card .card_img_wraper .badge {
   position: absolute;
-  right: 12px;
+  right: 25px;
   top: 20px;
   background-color: #d0af85;
   color: #00303f;
@@ -1859,8 +1880,14 @@ nav .menu_btn svg {
 }
 
 .book_info .book_text_wraper .tabs_wraper .price span.old_price {
-  color: #c1c1c1;
+  color: #bb0808;
+}
+
+.book_info .book_text_wraper .tabs_wraper .price span.old_price span {
+  color: #bb0808;
   text-decoration: line-through;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
 }
 
 .book_info .tab-content {
@@ -1973,19 +2000,22 @@ nav .menu_btn svg {
 
 .deep_details .deep_imgs .stores_wraper .img_wraper {
   display: inline-block;
-  margin: 8px;
+  width: 24%;
+  padding: 8px;
 }
 
 .deep_details .deep_imgs .stores_wraper .img_wraper img {
-  min-width: 200px;
-  max-width: 200px;
-  min-height: 200px;
-  max-height: 200px;
+  width: 100%;
+  min-height: 150px;
+  max-height: 150px;
 }
 
 @media (max-width: 767px) {
   .deep_details .deep_imgs .stores_wraper {
     text-align: center;
+  }
+  .deep_details .deep_imgs .stores_wraper .img_wraper {
+    width: 49%;
   }
   .deep_details .deep_imgs .stores_wraper .img_wraper img {
     min-width: 250px;
@@ -2029,17 +2059,27 @@ nav .menu_btn svg {
 }
 
 .related_books .owl-carousel .item .card .card_img_wraper {
-  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .related_books .owl-carousel .item .card .card_img_wraper img {
-  min-height: 300px;
-  max-height: 300px;
+  min-width: 145px;
+  max-width: 145px;
+  min-height: 195px;
+  max-height: 195px;
 }
 
 .related_books .owl-carousel .item .card .card_img_wraper .badge {
   position: absolute;
-  right: 10px;
+  right: 50px;
   top: 20px;
   background-color: #d0af85;
   color: #00303f;
@@ -2064,6 +2104,8 @@ nav .menu_btn svg {
 }
 
 .related_books .owl-carousel .item .card .card-body h5 {
+  width: 100%;
+  text-align: end;
   color: #00303f;
 }
 

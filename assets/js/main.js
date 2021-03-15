@@ -59,9 +59,35 @@ $(document).ready( function() {
       }
     }
   });
-  
 
   $('#related_books').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    margin:10,
+    nav:true,
+    dots: false,
+    items:1,
+    rtl: true, 
+    responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      400:{
+        items:2,
+        nav:false
+      },
+      1000:{
+        items:4,
+        nav:true,
+        loop:false
+      }
+    }
+  });
+
+  $('#book_info').owlCarousel({
     loop:true,
     autoplay:true,
     autoplayTimeout:6000,
@@ -104,10 +130,22 @@ $(document).ready( function() {
   // END:: TOGGLE FORMS
 
   // START:: FLEX SLIDER
-  $('.flexslider').flexslider({
+  $('#carousel').flexslider({
     animation: "slide",
-    controlNav: "thumbnails"
+    controlNav: true,
+    animationLoop: true,
+    slideshow: true,
+    itemWidth: 160,
+    itemMargin: 0,
+    asNavFor: '#slider'
+  });
+
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
   });
   // END:: FLEX SLIDER
-
 });

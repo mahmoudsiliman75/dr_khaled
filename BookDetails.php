@@ -21,24 +21,55 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 col-md-6">
-				<div class="flexslider">
+				<div id="slider" class="flexslider">
 					<ul class="slides">
-						<li data-thumb="https://i.ytimg.com/vi/8udmtW-y8Qc/default.jpg">
+						<li>
 							<iframe src="https://www.youtube.com/embed/8udmtW-y8Qc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</li>
-
-						<li data-thumb="assets/media/certificate.png">
-							<img src="assets/media/certificate.png" />
+						<li>
+							<img src="assets/media/pic2.jpg" />
 						</li>
-						
-						<li data-thumb="assets/media/pic15.jpg">
-							<img src="assets/media/pic15.jpg" />
+						<li>
+							<img src="assets/media/pic3.jpg" />
 						</li>
-
-						<li data-thumb="assets/media/pic7.jpg">
+						<li>
+							<img src="assets/media/pic4.jpg" />
+						</li>
+						<li>
+							<img src="assets/media/pic5.jpg" />
+						</li>
+						<li>
+							<img src="assets/media/pic6.jpg" />
+						</li>
+						<li>
 							<img src="assets/media/pic7.jpg" />
 						</li>
+					</ul>
+				</div>
 
+				<div id="carousel" class="flexslider">
+					<ul class="slides">
+						<li>
+							<img class="min_img" src="https://i.ytimg.com/vi/8udmtW-y8Qc/default.jpg" />
+						</li>
+						<li>
+							<img class="min_img" src="assets/media/pic2.jpg" />
+						</li>
+						<li>
+							<img class="min_img" src="assets/media/pic3.jpg" />
+						</li>
+						<li>
+							<img class="min_img" src="assets/media/pic4.jpg" />
+						</li>
+						<li>
+							<img class="min_img" src="assets/media/pic5.jpg" />
+						</li>
+						<li>
+							<img class="min_img" src="assets/media/pic6.jpg" />
+						</li>
+						<li>
+							<img class="min_img" src="assets/media/pic7.jpg" />
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -61,7 +92,7 @@
 							</ul>
 
 							<div class="col-5 col-md-7 price">
-								<span class="old_price"> 300 EGP </span>
+								<span class="old_price"> Sale: <span>300 EGP</span> </span>
 								<span class="new_price"> 200 EGP </span>
 							</div>
 						</div>
