@@ -177,6 +177,15 @@ nav .cart_btn a svg {
   color: #00303f;
 }
 
+nav .login_btn a {
+  text-decoration: none;
+  color: #00303f;
+}
+
+nav .login_btn a:hover {
+  color: #d0af85;
+}
+
 nav .lang-button button {
   background-color: transparent;
   border: none;

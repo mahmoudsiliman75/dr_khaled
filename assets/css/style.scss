@@ -145,6 +145,16 @@ nav {
   }
   // END:: CART BUTTON STYLES
 
+  .login_btn {
+    a {
+      text-decoration: none;
+      color: $deepBlue;
+      &:hover {
+        color: $lightCoffee
+      }
+    }
+  }
+
   // START:: LANGUAGE BTN STYLE
   .lang-button {
     button {
