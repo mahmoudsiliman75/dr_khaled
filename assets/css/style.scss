@@ -422,14 +422,16 @@ nav {
       position: relative;
       border: none;
       .card_img_wraper {
-        padding: 0 25px;
+        @include flexCenterAlignment();
         img {
-          min-height: 280px;
-          max-height: 280px;
+          min-width: 145px;
+          max-width: 145px;
+          min-height: 195px;
+          max-height: 195px;
         }
         .badge {
           position: absolute;
-          right: 12px;
+          right: 40px;
           top: 20px;
           background-color: $lightCoffee;
           color: $deepBlue;
@@ -478,6 +480,18 @@ nav {
             @include btnHoverEffect();
           }
         }
+      }
+    }
+  }
+
+  .btn_box {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+      border-color: $deepBlue;
+      color: $deepBlue;
+      &::before {
+        background-color: $deepBlue ; 
       }
     }
   }
