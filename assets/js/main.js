@@ -148,4 +148,8 @@ $(document).ready( function() {
     sync: "#carousel"
   });
   // END:: FLEX SLIDER
+
+  // START:: BOOTSTRAP SELECT
+  $('#type_selector').selectpicker();
+  // END:: BOOTSTRAP SELECT
 });

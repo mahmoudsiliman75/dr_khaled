@@ -1992,6 +1992,14 @@ nav .menu_btn svg {
   color: #bb0808;
 }
 
+.book_info .actions_wraper .dropdown.bootstrap-select {
+  width: auto !important;
+}
+
+.book_info .actions_wraper .dropdown .option.active, .book_info .actions_wraper .dropdown .option.selected {
+  background-color: #d0af85 !important;
+}
+
 .deep_details {
   padding-top: 30px;
   padding-bottom: 30px;

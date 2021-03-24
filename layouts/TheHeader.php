@@ -26,6 +26,10 @@
   <link rel="stylesheet" href="assets/css/flexslider.css">
   <!-- END:: INCLUDING FLEX SLIDER STYLE FILE -->
 
+  <!-- START:: INCLUDING BOOTSTRAP SELECT STYLE FILE -->
+  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+  <!-- END:: INCLUDING BOOTSTRAP SELECT STYLE FILE -->
+
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->

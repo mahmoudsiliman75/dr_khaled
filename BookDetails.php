@@ -128,14 +128,22 @@
 
 					<div class="actions_wraper">
 						<div class="row justify-content-between">
-							<div class="col-5 col-md-4 d-flex justify-content-start">
+							<div class="col-4 col-md-4 d-flex justify-content-start">
 								<a href="#"> 
 									look <span> Inside </span> 
 									<i class="fas fa-search"></i>
 								</a>
 							</div>
-							<div class="col-5 col-md-4 d-flex justify-content-end">
-								<button> Add To Cart <i class="fas fa-cart-plus"></i> </button>
+
+							<div class="col-6 col-md-8 d-flex justify-content-end">
+								<form action="" class="d-flex">
+									<select id="type_selector" class="selectpicker" style="width: 40%">
+										<option class="option">Select Type</option>
+										<option value="hard" class="option">Hard Copy</option>
+										<option value="pdf" class="option">DPF</option>
+									</select>
+									<button> Add To Cart <i class="fas fa-cart-plus"></i> </button>
+								</form>
 							</div>
 						</div>
 					</div>

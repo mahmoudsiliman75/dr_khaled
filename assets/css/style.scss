@@ -1168,6 +1168,17 @@ nav {
       background: transparent;
       color: $midRed;
     }
+    .dropdown {
+      &.bootstrap-select {
+        width: auto !important;
+      }
+      .option {
+        &.active,
+        &.selected  {
+          background-color: $lightCoffee !important;
+        }
+      }
+    }
   }
 }
 // END:: BOOK DETAILS PAGE STYLES
