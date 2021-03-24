@@ -1647,6 +1647,14 @@ nav {
           }
         }
       }
+      .back_link {
+        text-decoration: none;
+        color: $lightCoffee;
+        @include transitioning();
+        &:hover {
+          color: $deepBlue;
+        }
+      }
     }
   }
 }

@@ -2861,6 +2861,17 @@ nav .menu_btn svg {
   color: #315e92;
 }
 
+.auth_forms_wraper form .form_overlay .back_link {
+  text-decoration: none;
+  color: #d0af85;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.auth_forms_wraper form .form_overlay .back_link:hover {
+  color: #00303f;
+}
+
 .page_content_wraper {
   padding: 30px;
 }
