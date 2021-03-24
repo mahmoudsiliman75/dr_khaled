@@ -3282,6 +3282,20 @@ nav .menu_btn svg {
           margin-inline-end: 10px;
 }
 
+.floating_icon {
+  position: fixed;
+  bottom: 30px;
+  right: 5px;
+  z-index: 999;
+}
+
+.floating_icon img {
+  min-width: 90px;
+  max-width: 90px;
+  min-height: 90px;
+  max-height: 90px;
+}
+
 footer {
   background-color: #212121;
 }
@@ -3410,17 +3424,13 @@ footer .follow_us .payment:hover {
 
 footer .copy_rights {
   background-color: #444;
-  color: #d0af85;
+  color: #fff;
 }
 
 footer .copy_rights span a {
   text-decoration: none;
-  color: #00303f;
+  color: #ff7c00;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-}
-
-footer .copy_rights span a:hover {
-  color: #ff7c00;
 }
 /*# sourceMappingURL=style.css.map */
